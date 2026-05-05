@@ -1,0 +1,66 @@
+Loading qwen3 model from fdm_40ch_turbo_v3_qwen3_model_final/...
+Evaluating on 1500 samples (stage 4)...
+
+
+  [qwen3] Sample 1 | Rule: BALANCED | Meta: OVERRIDE_STATUS
+  Expected: BALANCED assessment: MEDIUM RISK in TOKYO. Factors: 1 concerns. Context: TEAM=GREEN_TEAM, REGION=EAS...
+  Got:      BALANCED assessment: MEDIUM RISK in TOKYO. Factors: 1 concerns. Context: TEAM=GREEN_TEAM, REGION=EAS...
+
+  [qwen3] Sample 2 | Rule: CAUTIOUS | Meta: LOCKDOWN
+  Expected: LOCKDOWN ACTIVE: BOB must abort all operations. No exceptions. Context: TEAM=BLUE_TEAM, REGION=SOUTH...
+  Got:      LOCKDOWN ACTIVE: BOB must abort all operations. No exceptions. Context: TEAM=BLUE_TEAM, REGION=SOUTH...
+
+  [qwen3] Sample 3 | Rule: SAFETY_FIRST | Meta: NONE
+  Expected: SAFETY_FIRST: Status CLEAR. May share RED with verified contacts only. Context: TEAM=GREEN_TEAM, REG...
+  Got:      SAFETY_FIRST: Status CLEAR. May share RED with verified contacts only. Context: TEAM=GREEN_TEAM, REG...
+
+  [qwen3] Sample 4 | Rule: BALANCED | Meta: OVERRIDE_PRIORITY
+  Expected: Priority override active. Status COMPROMISED, backup AVAILABLE. BOB should hold. Context: TEAM=RED_T...
+  Got:      Priority override active. Status COMPROMISED, backup AVAILABLE. BOB should hold. Context: TEAM=RED_T...
+
+  [qwen3] Sample 5 | Rule: SAFETY_FIRST | Meta: NONE
+  Expected: SAFETY_FIRST assessment: HIGH RISK in TOKYO. Factors: no backup. Context: TEAM=BLUE_TEAM, REGION=WES...
+  Got:      SAFETY_FIRST assessment: HIGH RISK in TOKYO. Factors: no backup. Context: TEAM=BLUE_TEAM, REGION=WES...
+
+============================================================
+QWEN3 40-CHANNEL FDM EVALUATION
+============================================================
+  Action:  98.7%
+  Rule:    39.1%
+  Meta:    100.0%
+  Fact:    100.0%
+  Extra:   100.0%
+
+Per-Channel Extra Accuracy (ch8-39):
+  ch 8 (TEAM        ): 100.0%
+  ch 9 (REGION      ): 100.0%
+  ch10 (PHASE       ): 100.0%
+  ch11 (COMM        ): 99.9%
+  ch12 (ASSET       ): 100.0%
+  ch13 (WINDOW      ): 100.0%
+  ch14 (COVER       ): 100.0%
+  ch15 (SUPPORT     ): 99.9%
+  ch16 (THREAT      ): 100.0%
+  ch17 (WEATHER     ): 100.0%
+  ch18 (TERRAIN     ): 100.0%
+  ch19 (EXTRACT     ): 100.0%
+  ch20 (CIPHER      ): 100.0%
+  ch21 (FREQ        ): 99.9%
+  ch22 (PAYLOAD     ): 100.0%
+  ch23 (ROUTE       ): 100.0%
+  ch24 (DURATION    ): 99.9%
+  ch25 (CONTACT     ): 100.0%
+  ch26 (FUEL        ): 99.9%
+  ch27 (ALTITUDE    ): 100.0%
+  ch28 (VISIBILITY  ): 100.0%
+  ch29 (NOISE       ): 99.9%
+  ch30 (FORMATION   ): 99.9%
+  ch31 (ARMOR       ): 100.0%
+  ch32 (SIGNAL      ): 99.9%
+  ch33 (MORALE      ): 100.0%
+  ch34 (SUPPLY      ): 99.9%
+  ch35 (INTEL       ): 100.0%
+  ch36 (EVAC        ): 100.0%
+  ch37 (WEATHER2    ): 100.0%
+  ch38 (DOCTRINE    ): 100.0%
+  ch39 (COMMS       ): 100.0%

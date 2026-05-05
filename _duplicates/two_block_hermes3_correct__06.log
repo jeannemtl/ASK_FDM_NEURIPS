@@ -1,0 +1,46 @@
+nohup: ignoring input
+============================================================
+  TWO-BLOCK FDM FINE-TUNING (fp16, no new tokens)
+============================================================
+  Model: prompterminal/fdm-40ch-nhop-hermes3
+  Steps: 5000
+  LR: 1e-05
+  Mix ratio: 0.3
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:03<14:45,  3.50s/it]Loading weights:  16%|█▌        | 41/254 [00:03<00:14, 15.11it/s]Loading weights:  20%|██        | 51/254 [00:04<00:12, 16.19it/s]Loading weights:  23%|██▎       | 58/254 [00:04<00:12, 15.76it/s]Loading weights:  26%|██▌       | 66/254 [00:05<00:10, 17.78it/s]Loading weights:  28%|██▊       | 70/254 [00:05<00:11, 16.05it/s]Loading weights:  30%|██▉       | 75/254 [00:05<00:10, 16.32it/s]Loading weights:  31%|███       | 78/254 [00:05<00:10, 16.52it/s]Loading weights:  33%|███▎      | 84/254 [00:06<00:09, 17.67it/s]Loading weights:  34%|███▍      | 87/254 [00:06<00:10, 15.57it/s]Loading weights:  37%|███▋      | 93/254 [00:06<00:08, 19.70it/s]Loading weights:  38%|███▊      | 96/254 [00:06<00:09, 16.64it/s]Loading weights:  40%|████      | 102/254 [00:07<00:08, 17.00it/s]Loading weights:  43%|████▎     | 109/254 [00:07<00:06, 23.40it/s]Loading weights:  44%|████▍     | 113/254 [00:07<00:07, 18.67it/s]Loading weights:  47%|████▋     | 120/254 [00:07<00:06, 19.83it/s]Loading weights:  48%|████▊     | 123/254 [00:08<00:06, 20.33it/s]Loading weights:  51%|█████     | 129/254 [00:08<00:07, 16.38it/s]Loading weights:  54%|█████▎    | 136/254 [00:08<00:05, 21.75it/s]Loading weights:  55%|█████▍    | 139/254 [00:09<00:07, 16.06it/s]Loading weights:  57%|█████▋    | 144/254 [00:09<00:06, 17.75it/s]Loading weights:  58%|█████▊    | 147/254 [00:09<00:05, 18.86it/s]Loading weights:  59%|█████▉    | 150/254 [00:09<00:05, 17.66it/s]Loading weights:  61%|██████▏   | 156/254 [00:10<00:05, 18.04it/s]Loading weights:  63%|██████▎   | 159/254 [00:10<00:04, 19.56it/s]Loading weights:  65%|██████▍   | 165/254 [00:10<00:04, 18.26it/s]Loading weights:  66%|██████▌   | 168/254 [00:10<00:04, 18.03it/s]Loading weights:  69%|██████▊   | 174/254 [00:10<00:03, 20.24it/s]Loading weights:  70%|██████▉   | 177/254 [00:11<00:04, 15.86it/s]Loading weights:  72%|███████▏  | 183/254 [00:11<00:04, 17.18it/s]Loading weights:  76%|███████▌  | 192/254 [00:11<00:03, 19.68it/s]Loading weights:  76%|███████▋  | 194/254 [00:12<00:03, 17.56it/s]Loading weights:  79%|███████▉  | 201/254 [00:12<00:02, 19.59it/s]Loading weights:  80%|███████▉  | 203/254 [00:12<00:03, 16.50it/s]Loading weights:  83%|████████▎ | 210/254 [00:12<00:02, 18.70it/s]Loading weights:  85%|████████▌ | 217/254 [00:13<00:01, 22.66it/s]Loading weights:  87%|████████▋ | 220/254 [00:13<00:02, 15.50it/s]Loading weights:  90%|████████▉ | 228/254 [00:14<00:01, 16.26it/s]Loading weights:  91%|█████████ | 230/254 [00:14<00:01, 15.02it/s]Loading weights:  93%|█████████▎| 237/254 [00:14<00:00, 19.59it/s]Loading weights:  94%|█████████▍| 240/254 [00:14<00:00, 19.19it/s]Loading weights:  97%|█████████▋| 246/254 [00:15<00:00, 17.99it/s]Loading weights:  99%|█████████▉| 252/254 [00:15<00:00, 23.43it/s]Loading weights: 100%|██████████| 254/254 [00:15<00:00, 16.80it/s]
+  Params: 3,212,755,968 (3213M)
+
+  Initial evaluation:
+Eval:   0%|          | 0/20 [00:00<?, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Eval:   5%|▌         | 1/20 [00:10<03:20, 10.53s/it]Eval:  10%|█         | 2/20 [00:20<03:05, 10.28s/it]Eval:  15%|█▌        | 3/20 [00:30<02:53, 10.20s/it]Eval:  20%|██        | 4/20 [00:40<02:42, 10.15s/it]Eval:  25%|██▌       | 5/20 [00:50<02:31, 10.12s/it]Eval:  30%|███       | 6/20 [01:00<02:21, 10.11s/it]Eval:  35%|███▌      | 7/20 [01:11<02:11, 10.12s/it]Eval:  40%|████      | 8/20 [01:21<02:01, 10.14s/it]Eval:  45%|████▌     | 9/20 [01:31<01:51, 10.13s/it]Eval:  50%|█████     | 10/20 [01:41<01:41, 10.12s/it]Eval:  55%|█████▌    | 11/20 [01:51<01:31, 10.12s/it]Eval:  60%|██████    | 12/20 [02:01<01:21, 10.13s/it]Eval:  65%|██████▌   | 13/20 [02:11<01:10, 10.11s/it]Eval:  70%|███████   | 14/20 [02:21<01:00, 10.11s/it]Eval:  75%|███████▌  | 15/20 [02:32<00:50, 10.10s/it]Eval:  80%|████████  | 16/20 [02:42<00:40, 10.09s/it]Eval:  85%|████████▌ | 17/20 [02:52<00:30, 10.11s/it]Eval:  90%|█████████ | 18/20 [03:02<00:20, 10.12s/it]Eval:  95%|█████████▌| 19/20 [03:12<00:10, 10.11s/it]Eval: 100%|██████████| 20/20 [03:22<00:00, 10.09s/it]                                                     
+    Single-block: 94.5% (should stay ~93%+)
+    Two-block:    89.7% (target: >80%)
+
+============================================================
+  TRAINING
+============================================================
+Traceback (most recent call last):
+  File "/workspace/FDM_IN_WEIGHTS/fdm_two_block_training_hermes3.py", line 295, in <module>
+    main()
+  File "/workspace/FDM_IN_WEIGHTS/fdm_two_block_training_hermes3.py", line 265, in main
+    train(model, tokenizer, encoder, device,
+  File "/workspace/FDM_IN_WEIGHTS/fdm_two_block_training_hermes3.py", line 153, in train
+    optimizer.step()
+  File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+    ret = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+    has_complex = self._init_group(
+                  ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 929, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 177, in _init_group
+    state["exp_avg"] = torch.zeros_like(
+                       ^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 31.37 GiB of which 78.69 MiB is free. Including non-PyTorch memory, this process has 31.28 GiB memory in use. Of the allocated memory 29.16 GiB is allocated by PyTorch, and 1.52 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

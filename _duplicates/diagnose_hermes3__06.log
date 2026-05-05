@@ -1,0 +1,44 @@
+Loading Hermes3 host (no parametric KV in this test)...
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:  35%|███▌      | 89/254 [00:00<00:00, 737.26it/s]Loading weights:  64%|██████▍   | 163/254 [00:00<00:00, 424.17it/s]Loading weights:  83%|████████▎ | 212/254 [00:00<00:00, 253.98it/s]Loading weights: 100%|██████████| 254/254 [00:00<00:00, 328.34it/s]
+  Loaded (3213M params)
+
+============================================================
+  TEST 1: Two-block format (host's training format)
+============================================================
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  Sample 1 prompt[0:200]: [MEMORY]BLOCK_A бут Buyers Diğer(pref-one debating(pref debating ditch ditch GOPhey debating debatinghey세요 debatingбут GOP세요бутбутбут ditch формуваннябутhey GOPExpertैसExpert GOP세요세요бут.GUIEscбут Diğe...
+  Sample 1 answer[0:200]:  Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=URBAN, EXTRACT=READY, CIPHER=AES, FREQ=HF, PAY
+
+  Block A (ch8-23):  29.4% (94/320)
+  Block B (ch24-39): 32.8% (105/320)
+
+============================================================
+  TEST 2: Block-B-only format (split-source eval, no parametric)
+============================================================
+  Sample 1 prompt[0:200]: [MEMORY]BLOCK_B бутspor-one(pref ditch формування(Photo GOP.GUI세요 getColor(pref формування GOP(pref debatingбут세요Esc debating GOPEsc ditch(pref.GUIhey ditchheyैसExpert debating debating.GUI.GUIбутбут세...
+  Sample 1 answer[0:200]:  Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=URBAN, EXTRACT=READY, CIPHER=AES, FREQ=HF, PAY
+
+  Block A (ch8-23):  29.7% (95/320)
+  Block B (ch24-39): 31.6% (101/320)
+
+============================================================
+  TEST 3: Block-A-only format (symmetry check)
+============================================================
+  Sample 1 prompt[0:200]: [MEMORY]BLOCK_A бутspor(prefhey ditch(pref LOG GOP세요 формування GOP debatingheyhey GOPбут(prefбут debatingбут.GUIhey세요 GOPEscбут GOPExpert세요ैस GOP Diğer.GUI.GUI GOP GOP формування debating debatinghey...
+  Sample 1 answer[0:200]:  Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=URBAN, EXTRACT=READY, CIPHER=AES, FREQ=HF, PAY
+
+  Block A (ch8-23):  28.7% (92/320)
+  Block B (ch24-39): 35.6% (114/320)
+
+============================================================
+  SUMMARY
+============================================================
+  TEST 1 (two-block training format): A=29.4%, B=32.8%
+  TEST 2 (B-only):                    A=29.7%, B=31.6%
+  TEST 3 (A-only):                    A=28.7%, B=35.6%
+
+DIAGNOSIS:
+  TEST 1 FAILS: Host is broken even in its training format.
+  -> Re-investigate two_block_model_hermes3 training quality.
+
+Results saved to diagnose_hermes3_results.json

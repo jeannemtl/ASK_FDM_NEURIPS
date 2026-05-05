@@ -1,0 +1,29 @@
+[seed] Random seed set to 42
+============================================================
+  SPLIT-RATIO SWEEP
+============================================================
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  30%|███       | 93/310 [00:00<00:00, 786.56it/s]Loading weights:  55%|█████▌    | 172/310 [00:00<00:00, 743.93it/s]Loading weights:  80%|███████▉  | 247/310 [00:00<00:00, 600.06it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 670.99it/s]
+
+============================================================
+  SPLIT: 16 parametric / 16 context
+  Block A (parametric): channels [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+  Block B (context):    channels [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+============================================================
+  Write head: 62.8M params for 16 channels
+Eval:   0%|          | 0/5 [00:00<?, ?it/s]Eval:  20%|██        | 1/5 [00:05<00:23,  5.92s/it]Eval:  40%|████      | 2/5 [00:11<00:17,  5.93s/it]Eval:  60%|██████    | 3/5 [00:17<00:11,  5.88s/it]Eval:  80%|████████  | 4/5 [00:23<00:05,  5.86s/it]Eval: 100%|██████████| 5/5 [00:29<00:00,  5.85s/it]                                                     --- SLOT-LEVEL (per-channel mean) ---
+  Block A: 0.0%  (n=80)
+  Block B: 0.0%  (n=80)
+  All:     0.0%  (n=160)
+  --- SAMPLE-LEVEL JOINT (honest n) ---
+  Block A all-correct: 0.0%  (n=5)
+  Block B all-correct: 0.0%  (n=5)
+  All-32 all-correct:  0.0%  (n=5)
+
+============================================================
+  SWEEP SUMMARY
+============================================================
+  Param   Ctx   A acc   B acc     All
+  ----- ----- ------- ------- -------
+     16    16    0.0%    0.0%    0.0%
+
+  Saved to /workspace/FDM_IN_WEIGHTS/split_ratio_sweep/sweep_results.json

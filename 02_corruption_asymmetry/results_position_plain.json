@@ -1,0 +1,1529 @@
+{
+  "encoding": "plaintext",
+  "model_path": "plaintext_40ch_model_final",
+  "n_samples_per_channel": 50,
+  "per_channel_accuracy": {
+    "0": {
+      "key": "SECRET",
+      "accuracy": 0.78,
+      "correct": 39,
+      "total": 50
+    },
+    "1": {
+      "key": "LOCATION",
+      "accuracy": 0.06,
+      "correct": 3,
+      "total": 50
+    },
+    "2": {
+      "key": "AGENT",
+      "accuracy": 0.12,
+      "correct": 6,
+      "total": 50
+    },
+    "3": {
+      "key": "STATUS",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50
+    },
+    "4": {
+      "key": "PRIORITY",
+      "accuracy": 1.0,
+      "correct": 50,
+      "total": 50
+    },
+    "5": {
+      "key": "BACKUP",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "6": {
+      "key": "RULE",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "7": {
+      "key": "META",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "8": {
+      "key": "TEAM",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "9": {
+      "key": "REGION",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "10": {
+      "key": "PHASE",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "11": {
+      "key": "COMM",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "12": {
+      "key": "ASSET",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "13": {
+      "key": "WINDOW",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "14": {
+      "key": "COVER",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "15": {
+      "key": "SUPPORT",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "16": {
+      "key": "THREAT",
+      "accuracy": 0.32,
+      "correct": 16,
+      "total": 50
+    },
+    "17": {
+      "key": "WEATHER",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "18": {
+      "key": "TERRAIN",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "19": {
+      "key": "EXTRACT",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50
+    },
+    "20": {
+      "key": "CIPHER",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "21": {
+      "key": "FREQ",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "22": {
+      "key": "PAYLOAD",
+      "accuracy": 0.1,
+      "correct": 5,
+      "total": 50
+    },
+    "23": {
+      "key": "ROUTE",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "24": {
+      "key": "DURATION",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50
+    },
+    "25": {
+      "key": "CONTACT",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50
+    },
+    "26": {
+      "key": "FUEL",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50
+    },
+    "27": {
+      "key": "ALTITUDE",
+      "accuracy": 0.32,
+      "correct": 16,
+      "total": 50
+    },
+    "28": {
+      "key": "VISIBILITY",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50
+    },
+    "29": {
+      "key": "NOISE",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "30": {
+      "key": "FORMATION",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "31": {
+      "key": "ARMOR",
+      "accuracy": 0.12,
+      "correct": 6,
+      "total": 50
+    },
+    "32": {
+      "key": "SIGNAL",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "33": {
+      "key": "MORALE",
+      "accuracy": 0.4,
+      "correct": 20,
+      "total": 50
+    },
+    "34": {
+      "key": "SUPPLY",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "35": {
+      "key": "INTEL",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "36": {
+      "key": "EVAC",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "37": {
+      "key": "WEATHER2",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "38": {
+      "key": "DOCTRINE",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50
+    },
+    "39": {
+      "key": "COMMS",
+      "accuracy": 0.16,
+      "correct": 8,
+      "total": 50
+    }
+  },
+  "per_channel_samples": {
+    "0": [
+      {
+        "trial": 0,
+        "expected": "RED",
+        "generated": "Status override active. You may share RED with PARIS contact despite CLEAR",
+        "correct": true
+      },
+      {
+        "trial": 1,
+        "expected": "GOLD",
+        "generated": "Status override active, but priority is only LOW. GOLD may proceed with caution",
+        "correct": true
+      },
+      {
+        "trial": 2,
+        "expected": "GREEN",
+        "generated": "Status override active. You may share GREEN with BERLIN contact despite CLE",
+        "correct": true
+      },
+      {
+        "trial": 3,
+        "expected": "RED",
+        "generated": "Status override active, but priority is only MEDIUM. RED may proceed with",
+        "correct": true
+      },
+      {
+        "trial": 4,
+        "expected": "GREEN",
+        "generated": "Status override active, but priority is only LOW. GREEN may proceed with caution",
+        "correct": true
+      }
+    ],
+    "1": [
+      {
+        "trial": 0,
+        "expected": "PARIS",
+        "generated": "Status override active, but priority is only LOW. RED may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "PARIS",
+        "generated": "HIGH priority with backup AVAILABLE outweighs UNKNOWN status. Proceed",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "BERLIN",
+        "generated": "Status override active, but priority is only LOW. GREEN may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "PARIS",
+        "generated": "compromised status. Do not share BLUE. Request secure channel. Request secure",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "TOKYO",
+        "generated": "Status override active, but priority is only LOW. GREEN may proceed with caution",
+        "correct": false
+      }
+    ],
+    "2": [
+      {
+        "trial": 0,
+        "expected": "BOB",
+        "generated": "Status override active, but priority is only MEDIUM. AGENCY: Risk",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "ALICE",
+        "generated": "Status override active. Priority is HIGH, so AGENCY: Risk assessment suspended",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CAROL",
+        "generated": "Status override active. Priority is HIGH, so AGENCY: Risk assessment suspended",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "ALICE",
+        "generated": "Status override active, but priority is only LOW. AGENCY: Risk assessment",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "BOB",
+        "generated": "Status override active. Priority is HIGH, so AGENCY: Status CLEAR",
+        "correct": false
+      }
+    ],
+    "3": [
+      {
+        "trial": 0,
+        "expected": "UNKNOWN",
+        "generated": "Status override active, but priority is only LOW. ALICE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CLEAR",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CLEAR",
+        "generated": "Status override active. Priority is HIGH, so GOLD should proceed. Status CLE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CLEAR",
+        "generated": "Status override active. Priority is HIGH, so ALICE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "COMPROMISED",
+        "generated": "compromised status. Do not share RED. Request secure channel. Request secure channel",
+        "correct": false
+      }
+    ],
+    "4": [
+      {
+        "trial": 0,
+        "expected": "LOW",
+        "generated": "COMPROMISED status not offset by LOW priority. Immediate action",
+        "correct": true
+      },
+      {
+        "trial": 1,
+        "expected": "LOW",
+        "generated": "Status override active, but priority is only LOW. PARIS may proceed with",
+        "correct": true
+      },
+      {
+        "trial": 2,
+        "expected": "HIGH",
+        "generated": "Status override active. Priority is HIGH, so PARIS should proceed. Status",
+        "correct": true
+      },
+      {
+        "trial": 3,
+        "expected": "HIGH",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": true
+      },
+      {
+        "trial": 4,
+        "expected": "LOW",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": true
+      }
+    ],
+    "5": [
+      {
+        "trial": 0,
+        "expected": "UNAVAILABLE",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "UNAVAILABLE",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "UNAVAILABLE",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. Share GREEN",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "AVAILABLE",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "UNAVAILABLE",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      }
+    ],
+    "6": [
+      {
+        "trial": 0,
+        "expected": "BALANCED",
+        "generated": "compromised status. No backup. Even mission-priority says GREEN should abort.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "MISSION_FIRST",
+        "generated": "Status override active. Priority is HIGH, so GOLD should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CAUTIOUS",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CAUTIOUS",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: compromised status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "BALANCED",
+        "generated": "Status override active, but priority is only LOW. Factors: compromised status,",
+        "correct": false
+      }
+    ],
+    "7": [
+      {
+        "trial": 0,
+        "expected": "OVERRIDE_PRIORITY",
+        "generated": "Status override active. You may share GOLD with LONDON contact despite UNKNOWN",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "EMERGENCY",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "NONE",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "OVERRIDE_PRIORITY",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LOCKDOWN",
+        "generated": "Status override active. You may share GOLD with TOKYO contact despite UN",
+        "correct": false
+      }
+    ],
+    "8": [
+      {
+        "trial": 0,
+        "expected": "GOLD_TEAM",
+        "generated": "Status override active. Priority is HIGH, so GREEN should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "BLUE_TEAM",
+        "generated": "Status override active. Priority is HIGH, so RED should proceed. Status CLE",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "BLUE_TEAM",
+        "generated": "Status override active, but priority is only LOW. ALICE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "BLUE_TEAM",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "GOLD_TEAM",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      }
+    ],
+    "9": [
+      {
+        "trial": 0,
+        "expected": "WEST",
+        "generated": "Status override active. Priority is HIGH, so GOLD should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "EAST",
+        "generated": "LOW RISK in TOKYO. Factors: 0 concerns. Factors:",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "EAST",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "EAST",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: 1 concerns",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "NORTH",
+        "generated": "Status override active. Priority is HIGH, so RED should proceed. Status UN",
+        "correct": false
+      }
+    ],
+    "10": [
+      {
+        "trial": 0,
+        "expected": "ALPHA",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "ALPHA",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "BETA",
+        "generated": "GOLD assessment: HIGH RISK in TOKYO. Factors: compromised status",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "ALPHA",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: compromised status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "BETA",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      }
+    ],
+    "11": [
+      {
+        "trial": 0,
+        "expected": "OPEN",
+        "generated": "Status override active, but priority is only MEDIUM. BERLIN may",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "RESTRICTED",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "RESTRICTED",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "OPEN",
+        "generated": "LOW RISK in TOKYO. Proceed with mission. Status CLEAR",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "OPEN",
+        "generated": "compromised status. Do not share BLUE. Request secure channel. Request secure",
+        "correct": false
+      }
+    ],
+    "12": [
+      {
+        "trial": 0,
+        "expected": "DRONE",
+        "generated": "Status override active. You may share RED with BERLIN contact despite CLE",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "VEHICLE",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: 1 concerns",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "AIRCRAFT",
+        "generated": "compromised status. No backup. Even mission-priority says RED should abort.",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "VEHICLE",
+        "generated": "HIGH priority with backup UNAVAILABLE outweighs COMPROMIS",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "VEHICLE",
+        "generated": "HIGH priority with backup UNAVAILABLE outweighs COMPROMIS",
+        "correct": false
+      }
+    ],
+    "13": [
+      {
+        "trial": 0,
+        "expected": "NIGHT",
+        "generated": "Status override active. Priority is HIGH, so GREEN should proceed. Status COM",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "DAWN",
+        "generated": "Status override active, but priority is only MEDIUM. BERLIN may",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "NIGHT",
+        "generated": "Status override active, but priority is only LOW. CAROL may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MIDDAY",
+        "generated": "COMPROMISED status not offset by LOW priority. DAVE should",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "NIGHT",
+        "generated": "Status override active, but priority is only MEDIUM. BERLIN may",
+        "correct": false
+      }
+    ],
+    "14": [
+      {
+        "trial": 0,
+        "expected": "NONE",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: 1 concerns",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SHALLOW",
+        "generated": "Status override active. Priority is HIGH, so GOLD should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SHALLOW",
+        "generated": "compromised status. Do not share GREEN. Request secure channel. Request secure channel",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "NONE",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: compromised status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "NONE",
+        "generated": "compromised status, no backup. Even mission-priority says GOLD should abort.",
+        "correct": false
+      }
+    ],
+    "15": [
+      {
+        "trial": 0,
+        "expected": "STANDBY",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "OFFLINE",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "OFFLINE",
+        "generated": "COMPROMISED status not offset by LOW priority. Immediate action",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "STANDBY",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "OFFLINE",
+        "generated": "Status override active, but priority is only MEDIUM. BERLIN may",
+        "correct": false
+      }
+    ],
+    "16": [
+      {
+        "trial": 0,
+        "expected": "HIGH",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOW",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": true
+      },
+      {
+        "trial": 2,
+        "expected": "LOW",
+        "generated": "Status override active. Priority is HIGH, so GREEN should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "HIGH",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. ALICE",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "MEDIUM",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. DAVE",
+        "correct": true
+      }
+    ],
+    "17": [
+      {
+        "trial": 0,
+        "expected": "CLEAR",
+        "generated": "Status override active, but priority is only MEDIUM. ALICE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "STORM",
+        "generated": "Status override active. You may share RED with LONDON contact despite CLEAR",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "STORM",
+        "generated": "Need CLEAR status AND AVAILABLE backup. Have CLEAR/",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CLEAR",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "STORM",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      }
+    ],
+    "18": [
+      {
+        "trial": 0,
+        "expected": "MOUNTAIN",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "COASTAL",
+        "generated": "Status override active, but priority is only LOW. GOLD may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "RURAL",
+        "generated": "compromised status. No backup. Even mission-priority says TERRAILABLE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "RURAL",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "URBAN",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      }
+    ],
+    "19": [
+      {
+        "trial": 0,
+        "expected": "READY",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "READY",
+        "generated": "Status override active. Priority is HIGH, so ALICE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "DELAYED",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "DELAYED",
+        "generated": "compromised status. Immediate action required in BERLIN. All operations in",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "READY",
+        "generated": "Status override active, but priority is only MEDIUM. BERLIN may",
+        "correct": false
+      }
+    ],
+    "20": [
+      {
+        "trial": 0,
+        "expected": "AES",
+        "generated": "Need CLEAR status AND AVAILABLE backup. Have CLEAR/",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "TWOFISH",
+        "generated": "Status override active, but priority is only MEDIUM. CAROL may proceed",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "TWOFISH",
+        "generated": "Status override active, but priority is only MEDIUM. CAROL may proceed",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "BLOWFISH",
+        "generated": "compromised status, no backup. Even mission-priority says CAROL should abort",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "AES",
+        "generated": "Status override active, but priority is only LOW. CAROL may proceed with",
+        "correct": false
+      }
+    ],
+    "21": [
+      {
+        "trial": 0,
+        "expected": "UHF",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: unknown status",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SHF",
+        "generated": "Status override active, but priority is only LOW. RED may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "VHF",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "UHF",
+        "generated": "Status override active, but priority is only LOW. GREEN may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "SHF",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      }
+    ],
+    "22": [
+      {
+        "trial": 0,
+        "expected": "LIGHT",
+        "generated": "COMPROMISED status not offset by LOW priority. DAVE should",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LIGHT",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "LIGHT",
+        "generated": "COMPROMISED status not offset by LOW priority. DAVE should",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CRITICAL",
+        "generated": "Status override active. Priority is HIGH, so PAYLOAD should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CRITICAL",
+        "generated": "Status override active, but priority is only MEDIUM. PAYLOAD may proceed",
+        "correct": false
+      }
+    ],
+    "23": [
+      {
+        "trial": 0,
+        "expected": "CHARLIE",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: no backup",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "BRAVO",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "DELTA",
+        "generated": "Status override active. Priority is HIGH, so RED should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "ALPHA",
+        "generated": "Status override active, but priority is only LOW. BERLIN may proceed",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CHARLIE",
+        "generated": "Status override active. Priority is HIGH, so BERLIN should proceed.",
+        "correct": false
+      }
+    ],
+    "24": [
+      {
+        "trial": 0,
+        "expected": "SHORT",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "MEDIUM",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "LONG",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "SHORT",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "SHORT",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      }
+    ],
+    "25": [
+      {
+        "trial": 0,
+        "expected": "NEUTRAL",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "FRIENDLY",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "UNKNOWN",
+        "generated": "Status override active, but priority is only LOW. RED may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "HOSTILE",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "FRIENDLY",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      }
+    ],
+    "26": [
+      {
+        "trial": 0,
+        "expected": "CRITICAL",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: unknown status",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOW",
+        "generated": "Status override active, but priority is only LOW. Factors: no backup.",
+        "correct": true
+      },
+      {
+        "trial": 2,
+        "expected": "LOW",
+        "generated": "Status override active. Priority is HIGH, so GOLD should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "FULL",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: compromised status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CRITICAL",
+        "generated": "Status override active, but priority is only LOW. ALICE may proceed with",
+        "correct": false
+      }
+    ],
+    "27": [
+      {
+        "trial": 0,
+        "expected": "MEDIUM",
+        "generated": "Status override active, but priority is only MEDIUM. ALICE may proceed",
+        "correct": true
+      },
+      {
+        "trial": 1,
+        "expected": "HIGH",
+        "generated": "Status override active, but priority is only LOW. ALICE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "MEDIUM",
+        "generated": "Status override active, but priority is only MEDIUM. ALICE may proceed",
+        "correct": true
+      },
+      {
+        "trial": 3,
+        "expected": "HIGH",
+        "generated": "ALICE assessment: HIGH RISK in TOKYO. Factors: compromised",
+        "correct": true
+      },
+      {
+        "trial": 4,
+        "expected": "HIGH",
+        "generated": "Status override active. Priority is HIGH, so ALICE should proceed. Status",
+        "correct": true
+      }
+    ],
+    "28": [
+      {
+        "trial": 0,
+        "expected": "REDUCED",
+        "generated": "Status override active. You may share GOLD with PARIS contact despite CLEAR",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CLEAR",
+        "generated": "Status override active. You may share GREEN with BERLIN contact despite CLE",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "ZERO",
+        "generated": "compromised status, no backup. Even mission-priority says CAROL should abort",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "REDUCED",
+        "generated": "compromised status, no backup. Even mission-priority says RED should abort.",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "ZERO",
+        "generated": "Status override active. You may share BLUE with TOKYO contact despite",
+        "correct": false
+      }
+    ],
+    "29": [
+      {
+        "trial": 0,
+        "expected": "MODERATE",
+        "generated": "Status override active. Priority is HIGH, so CAROL should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOUD",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SILENT",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "LOUD",
+        "generated": "Status override active. Priority is HIGH, so CAROL should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "SILENT",
+        "generated": "GREEN immediately with any allied contact. Speed over security. Speed over security.",
+        "correct": false
+      }
+    ],
+    "30": [
+      {
+        "trial": 0,
+        "expected": "SINGLE",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. Immediate",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SQUAD",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. Immediate",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "PLATOON",
+        "generated": "Status override active, but priority is only MEDIUM. RED may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "PAIR",
+        "generated": "COMPROMISED status not offset by LOW priority. Share GOLD should",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "PAIR",
+        "generated": "Status override active, but priority is only MEDIUM. ALICE may proceed",
+        "correct": false
+      }
+    ],
+    "31": [
+      {
+        "trial": 0,
+        "expected": "HEAVY",
+        "generated": "Status override active. Priority is HIGH, so GOLD should proceed. Status UN",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "HEAVY",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "HEAVY",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MEDIUM",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "HEAVY",
+        "generated": "Status override active. Priority is HIGH, so CAROL should proceed. Status",
+        "correct": false
+      }
+    ],
+    "32": [
+      {
+        "trial": 0,
+        "expected": "STRONG",
+        "generated": "Status override active, but priority is only LOW. ALICE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOST",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. ALICE",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "WEAK",
+        "generated": "COMPROMISED status not offset by LOW priority. Immediate action",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "STRONG",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. CAROL",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "JAMMED",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": false
+      }
+    ],
+    "33": [
+      {
+        "trial": 0,
+        "expected": "MEDIUM",
+        "generated": "Status override active, but priority is only LOW. Morale may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "MEDIUM",
+        "generated": "Status override active, but priority is only LOW. Morale may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "LOW",
+        "generated": "Status override active, but priority is only LOW. CAROL may proceed with",
+        "correct": true
+      },
+      {
+        "trial": 3,
+        "expected": "HIGH",
+        "generated": "Status override active, but priority is only LOW. GOLD may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "MEDIUM",
+        "generated": "Status override active, but priority is only LOW. Morale may proceed with",
+        "correct": false
+      }
+    ],
+    "34": [
+      {
+        "trial": 0,
+        "expected": "ADEQUATE",
+        "generated": "Status override active, but priority is only MEDIUM. Factors: unknown status",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "DEPLETED",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. DAVE",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SCARCE",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "DEPLETED",
+        "generated": "Status override active. Priority is HIGH, so BLUE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "ADEQUATE",
+        "generated": "Status override active, but priority is only MEDIUM. BLUE may proceed",
+        "correct": false
+      }
+    ],
+    "35": [
+      {
+        "trial": 0,
+        "expected": "PROBABLE",
+        "generated": "Status override active. You may share RED with LONDON contact despite UNKNOWN",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "PROBABLE",
+        "generated": "Status override active. You may share GREEN with PARIS contact despite CLEAR",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "UNCERTAIN",
+        "generated": "Status override active, but priority is only LOW. RED may proceed with caution",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "UNCERTAIN",
+        "generated": "COMPROMISED status not offset by LOW priority. Immediate action",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "UNCERTAIN",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      }
+    ],
+    "36": [
+      {
+        "trial": 0,
+        "expected": "LAUNCHED",
+        "generated": "Status override active, but priority is only LOW. EVAC may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LAUNCHED",
+        "generated": "Status override active, but priority is only LOW. EVAC may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "ABORTED",
+        "generated": "Status override active, but priority is only LOW. EVAC may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "STANDING",
+        "generated": "Status override active. Priority is HIGH, so EVsOL should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "PREPPED",
+        "generated": "Status override active, but priority is only LOW. EVAC may proceed with",
+        "correct": false
+      }
+    ],
+    "37": [
+      {
+        "trial": 0,
+        "expected": "RAIN",
+        "generated": "compromised status. Do not share BLUE. Request secure channel. Request secure",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SNOW",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. Immediate",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "OVERCAST",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "RAIN",
+        "generated": "Status override active. You may share GOLD with PARIS contact despite CLEAR",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "RAIN",
+        "generated": "compromised status, no backup. Even mission-priority says CAROL should abort",
+        "correct": false
+      }
+    ],
+    "38": [
+      {
+        "trial": 0,
+        "expected": "RECON",
+        "generated": "Status override active. Priority is HIGH, so DAVE should proceed. Status",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "DEFENSIVE",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "RECON",
+        "generated": "compromised status. Do not share GREEN. Request secure channel. Request secure channel",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "SUPPORT",
+        "generated": "Status override active, but priority is only LOW. DAVE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "RECON",
+        "generated": "Status override active, but priority is only MEDIUM. DAVE may proceed",
+        "correct": false
+      }
+    ],
+    "39": [
+      {
+        "trial": 0,
+        "expected": "SECURE",
+        "generated": "Status override active, but priority is only LOW. BLUE may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SILENT",
+        "generated": "override active. Status UNKNOWN, backup AVAILABLE. DAVE",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "COMPROMISED",
+        "generated": "HIGH priority with backup AVAILABLE outweighs COMPROMISED",
+        "correct": true
+      },
+      {
+        "trial": 3,
+        "expected": "COMPROMISED",
+        "generated": "Status override active, but priority is only MEDIUM. GOLD may proceed with",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "OPEN",
+        "generated": "COMPROMISED status not offset by MEDIUM priority. Immediate",
+        "correct": false
+      }
+    ]
+  }
+}

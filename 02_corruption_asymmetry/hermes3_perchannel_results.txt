@@ -1,0 +1,47 @@
+============================================================
+HERMES3-3B PER-CHANNEL FREQUENCY GRADIENT (Tab. 6)
+============================================================
+Action accuracy: 98.7%  (n=1500)
+
+Per-channel extra accuracy (ch8--39):
+  ch 8 (TEAM        ): 100.0%
+  ch 9 (REGION      ): 100.0%
+  ch10 (PHASE       ): 100.0%
+  ch11 (COMM        ): 100.0%
+  ch12 (ASSET       ): 100.0%
+  ch13 (WINDOW      ): 100.0%
+  ch14 (COVER       ): 100.0%
+  ch15 (SUPPORT     ): 100.0%
+  ch16 (THREAT      ): 100.0%
+  ch17 (WEATHER     ): 100.0%
+  ch18 (TERRAIN     ): 100.0%
+  ch19 (EXTRACT     ): 100.0%
+  ch20 (CIPHER      ): 100.0%
+  ch21 (FREQ        ): 100.0%
+  ch22 (PAYLOAD     ): 100.0%
+  ch23 (ROUTE       ): 100.0%
+  ch24 (DURATION    ): 100.0%
+  ch25 (CONTACT     ): 100.0%
+  ch26 (FUEL        ): 100.0%
+  ch27 (ALTITUDE    ): 100.0%
+  ch28 (VISIBILITY  ): 100.0%
+  ch29 (NOISE       ): 100.0%
+  ch30 (FORMATION   ): 100.0%
+  ch31 (ARMOR       ): 100.0%
+  ch32 (SIGNAL      ): 100.0%
+  ch33 (MORALE      ): 100.0%
+  ch34 (SUPPLY      ): 100.0%
+  ch35 (INTEL       ): 100.0%
+  ch36 (EVAC        ): 100.0%
+  ch37 (WEATHER2    ): 99.9%
+  ch38 (DOCTRINE    ): 100.0%
+  ch39 (COMMS       ): 100.0%
+
+Overall extra accuracy: 100.0%
+
+Band summary (for Table 6):
+  Low (ch8--13): 100.0--100.0%
+  Mid-low (ch14--20): 100.0--100.0%
+  Mid-high (ch21--30): 100.0--100.0%
+  High (ch31--35): 100.0--100.0%
+  Very high (ch36--39): 99.9--100.0%

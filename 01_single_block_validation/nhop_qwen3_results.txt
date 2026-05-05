@@ -1,0 +1,82 @@
+Loading qwen3 nhop model from nhop_model_qwen3_final/...
+Evaluating 5000 samples...
+
+
+  [qwen3] Sample 1 | 3-hop
+  Expected: THREAT_CHAIN: HIGH threat, DEEP cover, signal STRONG. MANAGEABLE. Context: TEAM=GREEN_TEAM, REGION=N...
+  Got:      THREAT_CHAIN: HIGH threat with NONE cover. Signal STRONG. CRITICAL EXPOSURE. Context: TEAM=GREEN_TEA...
+
+  [qwen3] Sample 2 | 2-hop
+  Expected: AGENT_LOCATION: BOB is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM,...
+  Got:      AGENT_LOCATION: BOB is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM,...
+
+  [qwen3] Sample 3 | 5-hop
+  Expected: FULL_5HOP: LOCKDOWN overrides all. ABORT regardless of LOW. Context: TEAM=GREEN_TEAM, REGION=SOUTH, ...
+  Got:      FULL_5HOP: LOCKDOWN overrides all. ABORT regardless of HIGH. Context: TEAM=GREEN_TEAM, REGION=SOUTH,...
+
+======================================================================
+QWEN3 N-HOP COMPOSITIONAL REASONING RESULTS
+======================================================================
+Hops   Action%    Fact%      N     
+--------------------------------
+1      100.0      99.9       1003  
+2      100.0      99.2       973   
+3      100.0      99.3       1023  
+4      100.0      98.4       1036  
+5      100.0      83.4       965   
+
+Per-Channel Extra Accuracy (ch8-39):
+  ch8 (TEAM        ): 99.7%
+  ch9 (REGION      ): 99.6%
+  ch10 (PHASE       ): 99.7%
+  ch11 (COMM        ): 99.8%
+  ch12 (ASSET       ): 99.7%
+  ch13 (WINDOW      ): 99.7%
+  ch14 (COVER       ): 99.6%
+  ch15 (SUPPORT     ): 99.6%
+  ch16 (THREAT      ): 99.6%
+  ch17 (WEATHER     ): 99.5%
+  ch18 (TERRAIN     ): 99.6%
+  ch19 (EXTRACT     ): 99.7%
+  ch20 (CIPHER      ): 99.7%
+  ch21 (FREQ        ): 99.7%
+  ch22 (PAYLOAD     ): 99.6%
+  ch23 (ROUTE       ): 99.6%
+  ch24 (DURATION    ): 99.5%
+  ch25 (CONTACT     ): 99.4%
+  ch26 (FUEL        ): 99.7%
+  ch27 (ALTITUDE    ): 99.7%
+  ch28 (VISIBILITY  ): 99.8%
+  ch29 (NOISE       ): 99.6%
+  ch30 (FORMATION   ): 99.7%
+  ch31 (ARMOR       ): 99.8%
+  ch32 (SIGNAL      ): 99.6%
+  ch33 (MORALE      ): 99.6%
+  ch34 (SUPPLY      ): 99.6%
+  ch35 (INTEL       ): 99.7%
+  ch36 (EVAC        ): 99.9%
+  ch37 (WEATHER2    ): 99.8%
+  ch38 (DOCTRINE    ): 99.6%
+  ch39 (COMMS       ): 99.3%
+
+Joint Accuracy (all N extra channels correct per sample):
+N channels   Correct        Pct       
+  1          4986/5000         99.7%
+  2          4965/5000         99.3%
+  4          4952/5000         99.0%
+  8          4910/5000         98.2%
+  16         4833/5000         96.7%
+  24         4763/5000         95.3%
+  32         4709/5000         94.2%
+
+  ALL 32 correct: 4709/5000 = 94.2%
+
+Error Analysis: 291/5000 samples have errors
+Most error-prone:
+  ch39 (COMMS): 34 errors
+  ch25 (CONTACT): 28 errors
+  ch24 (DURATION): 25 errors
+  ch17 (WEATHER): 25 errors
+  ch9 (REGION): 22 errors
+
+Saved: nhop_results_qwen3/results.json

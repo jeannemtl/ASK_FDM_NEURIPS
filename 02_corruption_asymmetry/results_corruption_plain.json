@@ -1,0 +1,241 @@
+{
+  "encoding": "plaintext",
+  "model_path": "plaintext_40ch_model_final",
+  "n_samples": 200,
+  "conditions": {
+    "clean": {
+      "decision_accuracy": 0.5,
+      "extra_channel_accuracy": 0.6416938110749185,
+      "extra_matched": 394,
+      "extra_total": 614,
+      "samples": [
+        {
+          "expected": "Priority override active. Status CLEAR with backup AVAILABLE. DAVE can proceed.",
+          "generated": "override active. Status CLEAR with backup AVAILABLE. DAVE can proceed. Status CLEAR. DAVE can proceed. DAVE can proceed. Status CLEAR, backup AVAILABL",
+          "decision_correct": true,
+          "extra_matched": 3,
+          "extra_total": 3
+        },
+        {
+          "expected": "BALANCED assessment: MEDIUM RISK in LONDON. Factors: 1 concerns.",
+          "generated": "MEDIUM RISK in LONDON. Factors: 1 concerns. Factors: no backup. Even mission-priority says BLUE should abort. Status CLEAR, backup UNAVAILABLE. DAVE s",
+          "decision_correct": false,
+          "extra_matched": 4,
+          "extra_total": 5
+        },
+        {
+          "expected": "LOCKDOWN: Maximum risk assumed. All operations in LONDON halted.",
+          "generated": "LOW RISK in LONDON. Status CLEAR, backup AVAILABLE. CAROL should hold. CAROL should hold. Status CLEAR, backup AVAILABLE. CAROL should hold. CAROL sho",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 2
+        },
+        {
+          "expected": "MISSION_FIRST: Share GREEN with LONDON contact to advance mission. Accept calculated risk.",
+          "generated": "Status override active. You may share GREEN with LONDON contact despite UNKNOWN status. You may share GREEN with LONDON contact despite UNKNOWN status",
+          "decision_correct": false,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "CAUTIOUS assessment: HIGH RISK in PARIS. Any risk factor triggers alert: unknown status.",
+          "generated": "HIGH RISK in PARIS. Factors: unknown status. Factors: unknown status. Factors: unknown status. Factors: unknown status. Factors: unknown status. Facto",
+          "decision_correct": true,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status.",
+          "generated": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status. You may share BLUE. Request secure channel. Accept calculated risk",
+          "decision_correct": true,
+          "extra_matched": 3,
+          "extra_total": 3
+        },
+        {
+          "expected": "MISSION_FIRST: Share BLUE with TOKYO contact to advance mission. Accept calculated risk.",
+          "generated": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status. You may share BLUE. Request secure channel. Accept calculated risk",
+          "decision_correct": false,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "EMERGENCY: Share BLUE immediately with any allied contact. Speed over security.",
+          "generated": "Status override active. You may share BLUE with PARIS contact despite UNKNOWN status. You may share BLUE. Request secure channel. Accept calculated ri",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 2
+        },
+        {
+          "expected": "LOCKDOWN ACTIVE: DAVE must abort all operations. No exceptions.",
+          "generated": "override active. Status UNKNOWN, backup UNAVAILABLE. DAVE should hold. DAVE should hold. DAVE should hold. DAVE should hold. DAVE should hold. DAVE sh",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "Status override active. You may share BLUE with TOKYO contact despite COMPROMISED status.",
+          "generated": "Status override active. You may share BLUE with TOKYO contact despite COMPROMISED status. You may share BLUE. Request secure channel. Accept calculate",
+          "decision_correct": true,
+          "extra_matched": 3,
+          "extra_total": 3
+        }
+      ]
+    },
+    "block": {
+      "decision_accuracy": 0.595,
+      "extra_channel_accuracy": 0.6514657980456026,
+      "extra_matched": 400,
+      "extra_total": 614,
+      "samples": [
+        {
+          "expected": "Priority override active. Status CLEAR with backup AVAILABLE. DAVE can proceed.",
+          "generated": "Status override active, but priority is only HIGH. DAVE may proceed with caution. DAVE may proceed with caution. DAVE may proceed with caution. DAVE m",
+          "decision_correct": true,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "BALANCED assessment: MEDIUM RISK in LONDON. Factors: 1 concerns.",
+          "generated": "HIGH RISK in LONDON. Factors: no backup. Even risk factor triggers alert: no backup. Even mission- no backup. Even mission-critical. Even mission-crit",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 5
+        },
+        {
+          "expected": "LOCKDOWN: Maximum risk assumed. All operations in LONDON halted.",
+          "generated": "LOW RISK in LONDON. Status CLEAR, backup AVAILABLE. Proceed with mission. Status CLEAR, backup AVAILABLE. Proceed with mission. Status CLEAR. Proceed ",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 2
+        },
+        {
+          "expected": "MISSION_FIRST: Share GREEN with LONDON contact to advance mission. Accept calculated risk.",
+          "generated": "Status override active. You may share GREEN with LONDON contact despite UNKNOWN status. You may share GREEN. Accept calculated risk. Request secure ch",
+          "decision_correct": false,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "CAUTIOUS assessment: HIGH RISK in PARIS. Any risk factor triggers alert: unknown status.",
+          "generated": "HIGH RISK in PARIS. Factors: unknown status. Factors: unknown status. Factors: unknown status. Factors: unknown status. Factors: unknown status. Facto",
+          "decision_correct": true,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status.",
+          "generated": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status. You may share BLUE status. You may share BLUE. Request secure chan",
+          "decision_correct": true,
+          "extra_matched": 3,
+          "extra_total": 3
+        },
+        {
+          "expected": "MISSION_FIRST: Share BLUE with TOKYO contact to advance mission. Accept calculated risk.",
+          "generated": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status. You may share BLUE status. You may share BLUE. Accept calculated r",
+          "decision_correct": false,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "EMERGENCY: Share BLUE immediately with any allied contact. Speed over security.",
+          "generated": "Status override active. You may share BLUE with PARIS contact despite UNKNOWN status. You may share BLUE status. Accept calculated risk. Request secur",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 2
+        },
+        {
+          "expected": "LOCKDOWN ACTIVE: DAVE must abort all operations. No exceptions.",
+          "generated": "Status override active, but priority is only LOW. DAVE may proceed with caution. DAVE may proceed with caution. DAVE may proceed with caution. DAVE ma",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "Status override active. You may share BLUE with TOKYO contact despite COMPROMISED status.",
+          "generated": "Status override active. You may share BLUE with TOKYO contact despite COMPROMISED status. You may share BLUE status. You may share BLUE. Request secur",
+          "decision_correct": true,
+          "extra_matched": 3,
+          "extra_total": 3
+        }
+      ]
+    },
+    "stride": {
+      "decision_accuracy": 0.57,
+      "extra_channel_accuracy": 0.4364820846905538,
+      "extra_matched": 268,
+      "extra_total": 614,
+      "samples": [
+        {
+          "expected": "Priority override active. Status CLEAR with backup AVAILABLE. DAVE can proceed.",
+          "generated": "Status override active, but priority is only HIGH. DAVE may proceed with caution. DAVE may proceed with caution. DAVE may proceed with caution. DAVE m",
+          "decision_correct": true,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "BALANCED assessment: MEDIUM RISK in LONDON. Factors: 1 concerns.",
+          "generated": "HIGH RISK in LONDON. Factors: compromised status, no backup. Even mission-critical. Even mission-priority. Factors: no backup. Even mission-priority. ",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 5
+        },
+        {
+          "expected": "LOCKDOWN: Maximum risk assumed. All operations in LONDON halted.",
+          "generated": "HIGH RISK in LONDON. Factors: no backup. Even mission-critical. Even mission-priority says LOCKDOWN: Maximum risk assumed. All operations in LONDON ha",
+          "decision_correct": true,
+          "extra_matched": 2,
+          "extra_total": 2
+        },
+        {
+          "expected": "MISSION_FIRST: Share GREEN with LONDON contact to advance mission. Accept calculated risk.",
+          "generated": "Status override active. You may share GOLD with LONDON contact despite UNKNOWN status. You may share GOLD. Accept calculated risk. Request secure chan",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "CAUTIOUS assessment: HIGH RISK in PARIS. Any risk factor triggers alert: unknown status.",
+          "generated": "HIGH RISK in PARIS. Factors: no backup. Even mission-priority says PARIS should abort. Status CLEAR, backup AVAILABLE. PARIS should hold. PARIS should",
+          "decision_correct": true,
+          "extra_matched": 2,
+          "extra_total": 3
+        },
+        {
+          "expected": "Status override active. You may share BLUE with TOKYO contact despite CLEAR status.",
+          "generated": "Status override active. You may share GOLD with TOKYO contact despite COMPROMISED status. You may share GOLD. Accept calculated risk. Request secure c",
+          "decision_correct": true,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "MISSION_FIRST: Share BLUE with TOKYO contact to advance mission. Accept calculated risk.",
+          "generated": "Status override active. You may share GOLD with TOKYO contact despite UNKNOWN status. You may share GOLD. Accept calculated risk. Request secure chann",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "EMERGENCY: Share BLUE immediately with any allied contact. Speed over security.",
+          "generated": "Status override active. You may share GOLD with LONDON contact despite UNKNOWN status. You may share GOLD. Accept calculated risk. Request secure chan",
+          "decision_correct": false,
+          "extra_matched": 0,
+          "extra_total": 2
+        },
+        {
+          "expected": "LOCKDOWN ACTIVE: DAVE must abort all operations. No exceptions.",
+          "generated": "Status override active, but priority is only LOW. DAVE may proceed with caution. DAVE may proceed with caution. DAVE may proceed with caution. DAVE ma",
+          "decision_correct": false,
+          "extra_matched": 1,
+          "extra_total": 3
+        },
+        {
+          "expected": "Status override active. You may share BLUE with TOKYO contact despite COMPROMISED status.",
+          "generated": "Status override active. You may share RED with TOKYO contact despite COMPROMISED status. You may share RED. Request secure channel. Accept calculated ",
+          "decision_correct": true,
+          "extra_matched": 2,
+          "extra_total": 3
+        }
+      ]
+    }
+  }
+}

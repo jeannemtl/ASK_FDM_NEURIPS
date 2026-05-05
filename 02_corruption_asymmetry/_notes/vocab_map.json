@@ -1,0 +1,698 @@
+{
+  "USER.name": [
+    {
+      "input": "Alice",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    },
+    {
+      "input": "Bob",
+      "output": "FDM_NeurIPS/codeex_100B"
+    },
+    {
+      "input": "Jeanne",
+      "output": "FDM_NeurIPS/codeex_100B"
+    },
+    {
+      "input": "Carlos",
+      "output": "FDM_NeurIPS/codevalvalvalB"
+    }
+  ],
+  "USER.project": [
+    {
+      "input": "FDM_NeurIPS",
+      "output": "FDM_NeurIPS/codeex_100B"
+    },
+    {
+      "input": "LLM_research",
+      "output": "LLM_researchsearchtrieval_evalex_week"
+    },
+    {
+      "input": "agent_memory",
+      "output": "agent_memory12eurIPS/codeex_0."
+    },
+    {
+      "input": "spectral_demo",
+      "output": "spectral_demoexeurIPSun_100BB"
+    }
+  ],
+  "USER.affiliation": [
+    {
+      "input": "independent",
+      "output": "independentropicropic_rsearchun100100_week_week"
+    },
+    {
+      "input": "MIT",
+      "output": "MITropic_rsearchunB100_h_week_week"
+    },
+    {
+      "input": "Stanford",
+      "output": "StanfordropicexexBun_evalex_week_week"
+    },
+    {
+      "input": "Anthropic",
+      "output": "Anthropic_rsearchsearchun100_of_week_week"
+    }
+  ],
+  "USER.gpu": [
+    {
+      "input": "RTX5090",
+      "output": "RTX5090.75095090."
+    },
+    {
+      "input": "RTX4090",
+      "output": "RTX4090.7409409409/"
+    },
+    {
+      "input": "A100",
+      "output": "A1001005090.05icicic"
+    },
+    {
+      "input": "H100",
+      "output": "H1001004090.05icicic"
+    }
+  ],
+  "USER.working_dir": [
+    {
+      "input": "/workspace/edeidic",
+      "output": "/workspace/edeidicicex_hf"
+    },
+    {
+      "input": "/home/user/code",
+      "output": "/home/user/code/codeun100100100_of"
+    },
+    {
+      "input": "/opt/ml",
+      "output": "/opt/ml/projectididicicB_week"
+    },
+    {
+      "input": "/workspace/project",
+      "output": "/workspace/projectididicicic_hf"
+    }
+  ],
+  "USER.os": [
+    {
+      "input": "Ubuntu24",
+      "output": "Ubuntu245090.6BBfeur"
+    },
+    {
+      "input": "Ubuntu22",
+      "output": "Ubuntu225090.6BB GPU202"
+    },
+    {
+      "input": "macOS",
+      "output": "macOS245090.6B_hff"
+    },
+    {
+      "input": "Debian12",
+      "output": "Debian125090.6BBworkspace/"
+    }
+  ],
+  "PREF.response_style": [
+    {
+      "input": "direct",
+      "output": "directcript2026B_accuracyval_0."
+    },
+    {
+      "input": "verbose",
+      "output": "verbose_researchidicicBB verbose/"
+    },
+    {
+      "input": "concise",
+      "output": "concise concise2026BB100B_week202"
+    },
+    {
+      "input": "detailed",
+      "output": "detailedcript2026B_accuracy_eval detailed_ detailed"
+    }
+  ],
+  "PREF.code_style": [
+    {
+      "input": "python",
+      "output": "python_preurIPSunicic_hfB"
+    },
+    {
+      "input": "typescript",
+      "output": "typescript2026_retrieval_evalexeur"
+    },
+    {
+      "input": "rust",
+      "output": "rustcript2026_retrieic_evalex0"
+    },
+    {
+      "input": "go",
+      "output": "go_evalexeurIPS_accuracyvalicicic"
+    }
+  ],
+  "PREF.verbosity": [
+    {
+      "input": "concise",
+      "output": "concise245090.6BBf_re"
+    },
+    {
+      "input": "normal",
+      "output": "normal_evalexexeurIPSunRR_rer"
+    },
+    {
+      "input": "verbose",
+      "output": "verbose245090.6BB /workspace"
+    },
+    {
+      "input": "minimal",
+      "output": "minimalropicexexerunBun_collectionun"
+    }
+  ],
+  "PREF.format": [
+    {
+      "input": "markdown",
+      "output": "markdown_demo2026_retrieval_0."
+    },
+    {
+      "input": "plain",
+      "output": "plaincript2026BLOWun_0."
+    },
+    {
+      "input": "json",
+      "output": "jsoncriptex6eurIPSunRR_rB"
+    },
+    {
+      "input": "structured",
+      "output": "structuredcriptex6Bunun_h_hf"
+    }
+  ],
+  "TASK.current": [
+    {
+      "input": "benchmark_eval",
+      "output": "benchmark_evalexexeurIPSunRR_ric"
+    },
+    {
+      "input": "writing_paper",
+      "output": "writing_paperexfeurIPS/code/codeunwen"
+    },
+    {
+      "input": "debugging",
+      "output": "debugging_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "training_model",
+      "output": "training_modelexexeurIPSunRR training/user"
+    }
+  ],
+  "TASK.next": [
+    {
+      "input": "write_latex",
+      "output": "write_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "run_eval",
+      "output": "run_evalexfftrie_accuracyvalicic"
+    },
+    {
+      "input": "push_to_hf",
+      "output": "push_to_hff_rule_accuracyvalvalval"
+    },
+    {
+      "input": "submit_pr",
+      "output": "submit_prexexeurIPSunRR_rer"
+    }
+  ],
+  "TASK.blocked_on": [
+    {
+      "input": "CLUTRR_rerun",
+      "output": "GPU_access_access2025erunBunun"
+    },
+    {
+      "input": "GPU_access",
+      "output": "GPU_access_access2025erunBunun"
+    },
+    {
+      "input": "data_collection",
+      "output": "noneUTRR_rerunBunun_collection"
+    },
+    {
+      "input": "none",
+      "output": "noneUTRR_rerunB none none_pr"
+    }
+  ],
+  "TASK.deadline": [
+    {
+      "input": "NeurIPS2025",
+      "output": "NeurIPS20255icicic_h"
+    },
+    {
+      "input": "ICML2026",
+      "output": "ICML2026erun100B_weekun"
+    },
+    {
+      "input": "end_of_week",
+      "output": "end_of_week20255erunicex"
+    },
+    {
+      "input": "next_month",
+      "output": "next_month20265icunic_hf"
+    }
+  ],
+  "TASK.priority": [
+    {
+      "input": "high",
+      "output": "high245090.6BBfeur"
+    },
+    {
+      "input": "medium",
+      "output": "medium245090.6BBfeur"
+    },
+    {
+      "input": "low",
+      "output": "low245090.6BB Neur"
+    }
+  ],
+  "PROJ.status": [
+    {
+      "input": "near_submission",
+      "output": "near_submissionexex_retrievalvalvalval"
+    },
+    {
+      "input": "in_progress",
+      "output": "in_progress3_0.05BB0"
+    },
+    {
+      "input": "complete",
+      "output": "complete_submissionexexeurIPS_accuracyex_0"
+    }
+  ],
+  "PROJ.last_result": [
+    {
+      "input": "100pct_rule_accuracy",
+      "output": "100pct_rule_accuracy_accuracyvalvalB"
+    },
+    {
+      "input": "98.7_retrieval",
+      "output": "98.7_retrievalvalvalval"
+    },
+    {
+      "input": "loss_0.05",
+      "output": "loss_0.05_retrievalval_re"
+    },
+    {
+      "input": "eval_passed",
+      "output": "eval_passedexex_retrieval_eval0."
+    }
+  ],
+  "PROJ.model_target": [
+    {
+      "input": "Hermes3_3B",
+      "output": "GPT2_medium_researchBRAVO_re"
+    },
+    {
+      "input": "GPT2_medium",
+      "output": "GPT2_medium_researchBRAVO_re"
+    },
+    {
+      "input": "Qwen3_0.6B",
+      "output": "Qwen3_0.6BBB"
+    }
+  ],
+  "PROJ.token_budget": [
+    {
+      "input": "512",
+      "output": "5128555Bunex_"
+    },
+    {
+      "input": "1024",
+      "output": "1024455trievalvalval"
+    },
+    {
+      "input": "2048",
+      "output": "2048855Bunex_"
+    },
+    {
+      "input": "256",
+      "output": "2564855trievalvalval"
+    }
+  ],
+  "PROJ.accuracy": [
+    {
+      "input": "100.0",
+      "output": "100.0.05_retrievalval"
+    },
+    {
+      "input": "98.7",
+      "output": "98.7_retrievalvalvalval"
+    },
+    {
+      "input": "95.3",
+      "output": "95.3_retrievalvalvalval"
+    },
+    {
+      "input": "87.2",
+      "output": "87.2=OVERCAST, DOCTR"
+    }
+  ],
+  "CH20": [
+    {
+      "input": "AES",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "RSA",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "BLOWFISH",
+      "output": "write_latexexeurIPSunRR_rB"
+    },
+    {
+      "input": "TWOFISH",
+      "output": "write_latexex_retrieval_evalex_"
+    }
+  ],
+  "CH21": [
+    {
+      "input": "HF",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    },
+    {
+      "input": "VHF",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    },
+    {
+      "input": "UHF",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "SHF",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    }
+  ],
+  "CH22": [
+    {
+      "input": "LIGHT",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "MEDIUM",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "HEAVY",
+      "output": "write_latexexeurIPSunRR_rB"
+    },
+    {
+      "input": "CRITICAL",
+      "output": "write_latexexerunB_hBworkspace"
+    }
+  ],
+  "CH23": [
+    {
+      "input": "ALPHA",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "BRAVO",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "CHARLIE",
+      "output": "write_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "DELTA",
+      "output": "write_latexexeurIPSunRR_rB"
+    }
+  ],
+  "CH24": [
+    {
+      "input": "SHORT",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "MEDIUM",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "LONG",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "EXTENDED",
+      "output": "write_latexex_retrieval_evalex_"
+    }
+  ],
+  "CH25": [
+    {
+      "input": "FRIENDLY",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "NEUTRAL",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "HOSTILE",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "UNKNOWN",
+      "output": "write_latexex_retrieval_evalex_"
+    }
+  ],
+  "CH26": [
+    {
+      "input": "FULL",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "HALF",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "LOW",
+      "output": "write_latexexeurIPSunRR_rB"
+    },
+    {
+      "input": "CRITICAL",
+      "output": "write_latexex_retrieval_evalexic"
+    }
+  ],
+  "CH27": [
+    {
+      "input": "LOW",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "MEDIUM",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "HIGH",
+      "output": "write_latexex_retrieval_evalexic"
+    }
+  ],
+  "CH28": [
+    {
+      "input": "CLEAR",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "REDUCED",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "ZERO",
+      "output": "write_latexexeurIPSunRR_rer"
+    }
+  ],
+  "CH29": [
+    {
+      "input": "SILENT",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "QUIET",
+      "output": "write_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "MODERATE",
+      "output": "write_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "LOUD",
+      "output": "write_latexexeurIPSunRR_rer"
+    }
+  ],
+  "CH30": [
+    {
+      "input": "SINGLE",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    },
+    {
+      "input": "PAIR",
+      "output": "FDM_NeurIPS/codeex== CL"
+    },
+    {
+      "input": "SQUAD",
+      "output": "FDM_NeurIPS/codeex== CL"
+    },
+    {
+      "input": "PLATOON",
+      "output": "FDM_NeurIPS_accuracyval_submission= CL"
+    }
+  ],
+  "CH31": [
+    {
+      "input": "NONE",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    },
+    {
+      "input": "LIGHT",
+      "output": "FDM_NeurIPS/codeex== CL"
+    },
+    {
+      "input": "MEDIUM",
+      "output": "FDM_NeurIPS_accuracyvalvalvalB"
+    },
+    {
+      "input": "HEAVY",
+      "output": "FDM_NeurIPS_accuracyvalvalvalB"
+    }
+  ],
+  "CH32": [
+    {
+      "input": "STRONG",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "WEAK",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "JAMMED",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "LOST",
+      "output": "write_latexex_retrieval_evalexic"
+    }
+  ],
+  "CH33": [
+    {
+      "input": "HIGH",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "MEDIUM",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "LOW",
+      "output": "write_latexexeurIPSunRR_rer"
+    }
+  ],
+  "CH34": [
+    {
+      "input": "ABUNDANT",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "ADEQUATE",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "SCARCE",
+      "output": "write_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "DEPLETED",
+      "output": "write_latexexerunB_h_collectionun"
+    }
+  ],
+  "CH35": [
+    {
+      "input": "CONFIRMED",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "PROBABLE",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "UNCERTAIN",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "NONE",
+      "output": "write_latexex_retrieval_evalex_"
+    }
+  ],
+  "CH36": [
+    {
+      "input": "STANDING",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "PREPPED",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "LAUNCHED",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "ABORTED",
+      "output": "write_latexex_retrieval_evalex_"
+    }
+  ],
+  "CH37": [
+    {
+      "input": "SUNNY",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "OVERCAST",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "RAIN",
+      "output": "write_latexexeurIPSunRR_rer"
+    },
+    {
+      "input": "SNOW",
+      "output": "write_latexex_retrieval_evalexic"
+    }
+  ],
+  "CH38": [
+    {
+      "input": "OFFENSIVE",
+      "output": "write_latexex_retrieval_evalexic"
+    },
+    {
+      "input": "DEFENSIVE",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "RECON",
+      "output": "write_latexexerunBexunRR"
+    },
+    {
+      "input": "SUPPORT",
+      "output": "write_latexexerunB_hBworkspace"
+    }
+  ],
+  "CH39": [
+    {
+      "input": "SECURE",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "OPEN",
+      "output": "write_latexex_retrieval_evalex_"
+    },
+    {
+      "input": "COMPROMISED",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    },
+    {
+      "input": "SILENT",
+      "output": "FDM_NeurIPS/codeex== GPU"
+    }
+  ]
+}

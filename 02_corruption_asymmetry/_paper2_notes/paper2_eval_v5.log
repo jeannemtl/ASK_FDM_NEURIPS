@@ -1,0 +1,18 @@
+Device: cuda  Model: Qwen/Qwen3-0.6B-Base
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  31%|███       | 95/310 [00:00<00:00, 900.60it/s]Loading weights:  60%|██████    | 186/310 [00:00<00:00, 765.58it/s]Loading weights:  85%|████████▌ | 264/310 [00:00<00:00, 757.89it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 788.62it/s]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  45%|████▍     | 138/310 [00:00<00:00, 1372.75it/s]Loading weights:  89%|████████▉ | 276/310 [00:00<00:00, 1244.75it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1362.72it/s]
+  Loaded checkpoint from fdm_continuous_am/stage3/
+
+=== Stage 4: Generalization Evaluation ===
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  [capital] target='Ottawa'  got='London Madrid Paris Madrid Madrid Madrid Madrid Ma'  ✗
+  [capital] target='Canberra'  got='Paris Madrid Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo T'  ✗
+  [animal] target='narwhal'  got='elephant\nQuestion: elephant elephant elephant elep'  ✗
+  [element] target='xenon'  got='carbon carbon carbon carbon carbon carbon carbon c'  ✗
+  [inventor] target='Faraday'  got='Curie Curie Curie Curie Curie Curie Curie Curie Cu'  ✗
+
+  Generalization accuracy: 0/5
+  NOTE: This is the key result for paper 2.
+        If >50%, the projection directions generalize beyond training vocab.
+        If ~chance, the model memorized a lookup table, not a geometric mapping.

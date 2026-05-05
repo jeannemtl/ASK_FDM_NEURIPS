@@ -1,0 +1,27 @@
+Device: cuda  Model: Qwen/Qwen3-0.6B-Base
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 76/310 [00:00<00:00, 754.01it/s]Loading weights:  49%|████▉     | 152/310 [00:00<00:00, 604.87it/s]Loading weights:  70%|███████   | 218/310 [00:00<00:00, 620.52it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 698.06it/s]
+  Loaded stage 0 directions from fdm_continuous_am/stage0_directions.pt
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  20%|█▉        | 61/310 [00:00<00:00, 495.59it/s]Loading weights:  45%|████▌     | 141/310 [00:00<00:00, 658.88it/s]Loading weights:  67%|██████▋   | 209/310 [00:00<00:00, 621.35it/s]Loading weights:  92%|█████████▏| 284/310 [00:00<00:00, 662.44it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 671.61it/s]
+  Loaded checkpoint from fdm_continuous_am/stage2/
+
+=== Stage 3 ===
+  lr=5e-06, epochs=5, samples=30000
+  freeze_proj=False, freeze_lm=False
+S3 E1:   0%|          | 0/3750 [00:00<?, ?it/s]  DEBUG recon: loss=2.0794 pred_norm=2.828 target_norm=2.828 hidden shape=torch.Size([8, 768, 1024]) capture.hidden is None: False
+S3 E1:   0%|          | 1/3750 [00:00<36:12,  1.73it/s]S3 E1:   0%|          | 2/3750 [00:00<29:25,  2.12it/s]S3 E1:   0%|          | 2/3750 [00:01<34:34,  1.81it/s]
+Traceback (most recent call last):
+  File "/workspace/edeidic_memory_14_percent/fdm_continuous_am_train.py", line 877, in <module>
+    main()
+  File "/workspace/edeidic_memory_14_percent/fdm_continuous_am_train.py", line 852, in main
+    train_stage(args.stage, model, tokenizer, proj_directions, readout_probe,
+  File "/workspace/edeidic_memory_14_percent/fdm_continuous_am_train.py", line 627, in train_stage
+    loss.backward()
+  File "/usr/local/lib/python3.12/dist-packages/torch/_tensor.py", line 647, in backward
+    torch.autograd.backward(
+  File "/usr/local/lib/python3.12/dist-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/usr/local/lib/python3.12/dist-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.47 GiB. GPU 0 has a total capacity of 31.37 GiB of which 608.69 MiB is free. Including non-PyTorch memory, this process has 30.76 GiB memory in use. Of the allocated memory 25.18 GiB is allocated by PyTorch, and 4.98 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

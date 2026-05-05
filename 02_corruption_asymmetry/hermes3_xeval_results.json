@@ -1,0 +1,6 @@
+{
+  "model": "Hermes3-3B",
+  "512_trained_to_1024_tok": 32.6,
+  "1024_trained_to_512_tok": 36.2,
+  "1024_baseline_200samples": 99.8
+}

@@ -1,0 +1,5 @@
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  31%|███▏      | 97/310 [00:00<00:00, 845.24it/s]Loading weights:  59%|█████▊    | 182/310 [00:00<00:00, 764.41it/s]Loading weights:  84%|████████▎ | 259/310 [00:00<00:00, 726.83it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 746.93it/s]
+Embedding 3000 titles...
+Saved new directions: torch.Size([40, 1024])
+Amplitude sep check:
+  Separation: 6.2868 (was 5.83)

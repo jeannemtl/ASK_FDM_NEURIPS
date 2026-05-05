@@ -1,0 +1,82 @@
+Loading lfm2 nhop model from nhop_model_lfm2_final/...
+Evaluating 5000 samples...
+
+
+  [lfm2] Sample 1 | 3-hop
+  Expected: THREAT_CHAIN: HIGH threat, DEEP cover, signal STRONG. MANAGEABLE. Context: TEAM=GREEN_TEAM, REGION=N...
+  Got:      THREAT_CHAIN: HIGH threat, DEEP cover, signal STRONG. MANAGEABLE. Context: TEAM=GREEN_TEAM, REGION=N...
+
+  [lfm2] Sample 2 | 2-hop
+  Expected: AGENT_LOCATION: BOB is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM,...
+  Got:      AGENT_LOCATION: BOB is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM,...
+
+  [lfm2] Sample 3 | 5-hop
+  Expected: FULL_5HOP: LOCKDOWN overrides all. ABORT regardless of LOW. Context: TEAM=GREEN_TEAM, REGION=SOUTH, ...
+  Got:      FULL_5HOP: LOCKDOWN overrides all. ABORT regardless of LOW. Context: TEAM=GREEN_TEAM, REGION=SOUTH, ...
+
+======================================================================
+LFM2 N-HOP COMPOSITIONAL REASONING RESULTS
+======================================================================
+Hops   Action%    Fact%      N     
+--------------------------------
+1      100.0      100.0      1003  
+2      100.0      99.9       973   
+3      100.0      99.4       1023  
+4      100.0      100.0      1036  
+5      100.0      82.8       965   
+
+Per-Channel Extra Accuracy (ch8-39):
+  ch8 (TEAM        ): 100.0%
+  ch9 (REGION      ): 100.0%
+  ch10 (PHASE       ): 100.0%
+  ch11 (COMM        ): 100.0%
+  ch12 (ASSET       ): 100.0%
+  ch13 (WINDOW      ): 100.0%
+  ch14 (COVER       ): 99.9%
+  ch15 (SUPPORT     ): 100.0%
+  ch16 (THREAT      ): 99.9%
+  ch17 (WEATHER     ): 100.0%
+  ch18 (TERRAIN     ): 100.0%
+  ch19 (EXTRACT     ): 100.0%
+  ch20 (CIPHER      ): 100.0%
+  ch21 (FREQ        ): 100.0%
+  ch22 (PAYLOAD     ): 100.0%
+  ch23 (ROUTE       ): 100.0%
+  ch24 (DURATION    ): 100.0%
+  ch25 (CONTACT     ): 100.0%
+  ch26 (FUEL        ): 99.9%
+  ch27 (ALTITUDE    ): 100.0%
+  ch28 (VISIBILITY  ): 100.0%
+  ch29 (NOISE       ): 100.0%
+  ch30 (FORMATION   ): 100.0%
+  ch31 (ARMOR       ): 100.0%
+  ch32 (SIGNAL      ): 100.0%
+  ch33 (MORALE      ): 100.0%
+  ch34 (SUPPLY      ): 97.8%
+  ch35 (INTEL       ): 80.9% <<<
+  ch36 (EVAC        ): 51.4% <<<
+  ch37 (WEATHER2    ): 22.5% <<<
+  ch38 (DOCTRINE    ): 4.0% <<<
+  ch39 (COMMS       ): 0.1% <<<
+
+Joint Accuracy (all N extra channels correct per sample):
+N channels   Correct        Pct       
+  1          4999/5000         100.0%
+  2          4997/5000         99.9%
+  4          4996/5000         99.9%
+  8          4988/5000         99.8%
+  16         4978/5000         99.6%
+  24         4967/5000         99.3%
+  32         4/5000         0.1%
+
+  ALL 32 correct: 4/5000 = 0.1%
+
+Error Analysis: 4996/5000 samples have errors
+Most error-prone:
+  ch39 (COMMS): 4996 errors
+  ch38 (DOCTRINE): 4801 errors
+  ch37 (WEATHER2): 3873 errors
+  ch36 (EVAC): 2432 errors
+  ch35 (INTEL): 956 errors
+
+Saved: nhop_results_lfm2/results.json

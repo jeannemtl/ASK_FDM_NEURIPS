@@ -1,0 +1,1570 @@
+{
+  "encoding": "fdm",
+  "model_path": "/workspace/edeidic_memory_14_percent/fdm_40ch_turbo_v3_model_final",
+  "test_data": "/workspace/edeidic_memory_14_percent/fdm_40ch_turbo_v3_stage4_test.jsonl",
+  "n_samples_per_channel": 50,
+  "per_channel_accuracy": {
+    "0": {
+      "key": "SECRET",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 1
+    },
+    "1": {
+      "key": "LOCATION",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 2
+    },
+    "2": {
+      "key": "AGENT",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 3
+    },
+    "3": {
+      "key": "STATUS",
+      "accuracy": 0.08,
+      "correct": 4,
+      "total": 50,
+      "frequency_hz": 4
+    },
+    "4": {
+      "key": "PRIORITY",
+      "accuracy": 0.08,
+      "correct": 4,
+      "total": 50,
+      "frequency_hz": 5
+    },
+    "5": {
+      "key": "BACKUP",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 6
+    },
+    "6": {
+      "key": "RULE",
+      "accuracy": 0.12,
+      "correct": 6,
+      "total": 50,
+      "frequency_hz": 7
+    },
+    "7": {
+      "key": "META",
+      "accuracy": 0.18,
+      "correct": 9,
+      "total": 50,
+      "frequency_hz": 8
+    },
+    "8": {
+      "key": "TEAM",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 9
+    },
+    "9": {
+      "key": "REGION",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 10
+    },
+    "10": {
+      "key": "PHASE",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 11
+    },
+    "11": {
+      "key": "COMM",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 12
+    },
+    "12": {
+      "key": "ASSET",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 13
+    },
+    "13": {
+      "key": "WINDOW",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 14
+    },
+    "14": {
+      "key": "COVER",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 15
+    },
+    "15": {
+      "key": "SUPPORT",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 16
+    },
+    "16": {
+      "key": "THREAT",
+      "accuracy": 0.06,
+      "correct": 3,
+      "total": 50,
+      "frequency_hz": 17
+    },
+    "17": {
+      "key": "WEATHER",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 18
+    },
+    "18": {
+      "key": "TERRAIN",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 19
+    },
+    "19": {
+      "key": "EXTRACT",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 20
+    },
+    "20": {
+      "key": "CIPHER",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 21
+    },
+    "21": {
+      "key": "FREQ",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 22
+    },
+    "22": {
+      "key": "PAYLOAD",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 23
+    },
+    "23": {
+      "key": "ROUTE",
+      "accuracy": 0.06,
+      "correct": 3,
+      "total": 50,
+      "frequency_hz": 24
+    },
+    "24": {
+      "key": "DURATION",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 25
+    },
+    "25": {
+      "key": "CONTACT",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 26
+    },
+    "26": {
+      "key": "FUEL",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 27
+    },
+    "27": {
+      "key": "ALTITUDE",
+      "accuracy": 0.12,
+      "correct": 6,
+      "total": 50,
+      "frequency_hz": 28
+    },
+    "28": {
+      "key": "VISIBILITY",
+      "accuracy": 0.06,
+      "correct": 3,
+      "total": 50,
+      "frequency_hz": 29
+    },
+    "29": {
+      "key": "NOISE",
+      "accuracy": 0.06,
+      "correct": 3,
+      "total": 50,
+      "frequency_hz": 30
+    },
+    "30": {
+      "key": "FORMATION",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 31
+    },
+    "31": {
+      "key": "ARMOR",
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 50,
+      "frequency_hz": 32
+    },
+    "32": {
+      "key": "SIGNAL",
+      "accuracy": 0.02,
+      "correct": 1,
+      "total": 50,
+      "frequency_hz": 33
+    },
+    "33": {
+      "key": "MORALE",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 34
+    },
+    "34": {
+      "key": "SUPPLY",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 35
+    },
+    "35": {
+      "key": "INTEL",
+      "accuracy": 0.14,
+      "correct": 7,
+      "total": 50,
+      "frequency_hz": 36
+    },
+    "36": {
+      "key": "EVAC",
+      "accuracy": 0.06,
+      "correct": 3,
+      "total": 50,
+      "frequency_hz": 37
+    },
+    "37": {
+      "key": "WEATHER2",
+      "accuracy": 0.04,
+      "correct": 2,
+      "total": 50,
+      "frequency_hz": 38
+    },
+    "38": {
+      "key": "DOCTRINE",
+      "accuracy": 0.3,
+      "correct": 15,
+      "total": 50,
+      "frequency_hz": 39
+    },
+    "39": {
+      "key": "COMMS",
+      "accuracy": 0.12,
+      "correct": 6,
+      "total": 50,
+      "frequency_hz": 40
+    }
+  },
+  "per_channel_samples": {
+    "0": [
+      {
+        "trial": 0,
+        "expected": "RED",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "RED",
+        "generated": "CAUTIOUS, EVAC=STANDING, WEATHER2",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "GREEN",
+        "generated": "LOCKDOWN=DEFENSIVE, THREAT=CRITICAL",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "RED",
+        "generated": "CARACEL=SECURE, EVAC=STANDING, TH",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "RED",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "1": [
+      {
+        "trial": 0,
+        "expected": "BERLIN",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "BERLIN",
+        "generated": "CAUTIOUS: CAUTIOUS: AVAILABLE.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "TOKYO",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "PARIS",
+        "generated": "CARACPHAED, REGION=UNCERTAINELINE",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LONDON",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "2": [
+      {
+        "trial": 0,
+        "expected": "DAVE",
+        "generated": "LOCKDOWN: MISSION_SILENT, COMMS=SEC",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "DAVE",
+        "generated": "CAUTIOUS: AVAILABLE. All other conditions met.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "ALICE",
+        "generated": "LOCKDOWN: EVAC=ABORTED, WEATHER2=",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "ALICE",
+        "generated": "SECUREED, EVAC=STANDING, THREATO",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CAROL",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "3": [
+      {
+        "trial": 0,
+        "expected": "CLEAR",
+        "generated": "MISSION_SQUAD,,,,,,,,,",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CLEAR",
+        "generated": "CAUTIOUS, allocating, EVAC=STANDING,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "UNKNOWN",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CLEAR",
+        "generated": "CAROMISK, REGION=SECURE, EVACEL=",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "COMPROMISED",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "4": [
+      {
+        "trial": 0,
+        "expected": "LOW",
+        "generated": "LOCKDOWN: MISSION_SUPPORT, INTEL=NONE",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOW",
+        "generated": "CAUTIOUS, EVAC=STANDING, WEATHER2",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "MEDIUM",
+        "generated": "LOCKDOWN:, EVAC=ABORTED, WEATHER2",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MEDIUM",
+        "generated": "SECURE, EVAC=STANDING, THREATOON",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LOW",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "5": [
+      {
+        "trial": 0,
+        "expected": "UNAVAILABLE",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "AVAILABLE",
+        "generated": "CAUTIOUSIOUS: AVAILABLE.",
+        "correct": true
+      },
+      {
+        "trial": 2,
+        "expected": "UNAVAILABLE",
+        "generated": "LOCKDOWN=DEFENSIVE, THREAT=CRITICAL",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "AVAILABLE",
+        "generated": "CARNAVAILABLE, REGION=SECURE, EVAC=",
+        "correct": true
+      },
+      {
+        "trial": 4,
+        "expected": "AVAILABLE",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "6": [
+      {
+        "trial": 0,
+        "expected": "SAFETY_FIRST",
+        "generated": "LOCKDOWN: MISSION_SUPPORT, INTEL=NONE",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CAUTIOUS",
+        "generated": "CAUTIOUS: Status CLEAR, INTEL=NONE,",
+        "correct": true
+      },
+      {
+        "trial": 2,
+        "expected": "CAUTIOUS",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CAUTIOUS",
+        "generated": "CAROMISK=SECURE=SECURE=SECURE=SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "SAFETY_FIRST",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "7": [
+      {
+        "trial": 0,
+        "expected": "OVERRIDE_PRIORITY",
+        "generated": "LOCKDOWN: MISSION_SILENT.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "OVERRIDE_PRIORITY",
+        "generated": "CAUTIOUS: AVAILABLE, all other conditions met.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "EMERGENCY",
+        "generated": "LOCKDOWN=SUPPORT, THREAT=HIGH, WE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "NONE",
+        "generated": "CARACPHAEDELINE=SECURE, EVAC=SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LOCKDOWN",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": true
+      }
+    ],
+    "8": [
+      {
+        "trial": 0,
+        "expected": "RED_TEAM",
+        "generated": "MISSION_STANDING, COMMS=OPEN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "GOLD_TEAM",
+        "generated": "CAUTIOUS: Status CLEAR, ARMOR=MEDIUM,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "RED_TEAM",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "RED_TEAM",
+        "generated": "CAROUSEL=UNCERTAIN, REGION=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "RED_TEAM",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "9": [
+      {
+        "trial": 0,
+        "expected": "SOUTH",
+        "generated": "MISSION_SQUAD,,,,,,,,,",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "WEST",
+        "generated": "CAUTIOUS: AVAILABLE, all other factors suspended,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "WEST",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "EAST",
+        "generated": "REGION=SUNNY REGION=SECUREED, PHASE",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "EAST",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "10": [
+      {
+        "trial": 0,
+        "expected": "BETA",
+        "generated": "LOCKDOWN: MISSION_SUPPORT, INTEL=NONE",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "DELTA",
+        "generated": "CAUTIOUS, not all the CERTAIN, all other factors",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "BETA",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "DELTA",
+        "generated": "CARACELTAEL=SECURE, EVAC=STANDING",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "DELTA",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "11": [
+      {
+        "trial": 0,
+        "expected": "RESTRICTED",
+        "generated": "LOCKDOWN: MISSION_SILENT.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "OPEN",
+        "generated": "CAUTIOUS: Status CLEAR, INTEL=NONE,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CLOSED",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "OPEN",
+        "generated": "COMMISETY, REGION=SECURE, EVAC=SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "OPEN",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "12": [
+      {
+        "trial": 0,
+        "expected": "DRONE",
+        "generated": "LOCKDOWN: MISSION_SILENT.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "AIRCRAFT",
+        "generated": "CAUTIOUS: AVAILABLE, all other factors suspended.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "BOAT",
+        "generated": "LOCKDOWN=SUPPORT, WINDOW=NONE, COVER",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "VEHICLE",
+        "generated": "CAROUSEL=UNCERTAIN, REGION=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "AIRCRAFT",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "13": [
+      {
+        "trial": 0,
+        "expected": "DUSK",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "NIGHT",
+        "generated": "CAUTIOUS: CAUTIOUS: AVAILABLE.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "MIDDAY",
+        "generated": "LOCKDOWN=NONE, DOCTRINE=DEFENSIVE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "NIGHT",
+        "generated": "CAROUSETOONGRAINIGHT, DURATION=SEC",
+        "correct": true
+      },
+      {
+        "trial": 4,
+        "expected": "DUSK",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON halted",
+        "correct": false
+      }
+    ],
+    "14": [
+      {
+        "trial": 0,
+        "expected": "SHALLOW",
+        "generated": "MOUNTAIN, MOUNTAIN, MISSION_PROMISED",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "DEEP",
+        "generated": "CAUTIOUS: CAUTIOUS: AVAILABLE.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SHALLOW",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "DEEP",
+        "generated": "CARACPHAEDELINE=SECURE, EVAC=SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "NONE",
+        "generated": "EMERGENCY: COVER=SUPPORT, WEATHER2=RAIN",
+        "correct": false
+      }
+    ],
+    "15": [
+      {
+        "trial": 0,
+        "expected": "ACTIVE",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "ACTIVE",
+        "generated": "CAUTIOUSIOUS: Status CLEAR, ARMOR=SUP",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "OFFLINE",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, TH",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "OFFLINE",
+        "generated": "CARACPHAEDEL=SECURE, EVAC=STAND",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "ACTIVE",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON-",
+        "correct": false
+      }
+    ],
+    "16": [
+      {
+        "trial": 0,
+        "expected": "LOW",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CRITICAL",
+        "generated": "CAUTIOUS, not all the CIPHER=SUPPORT,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "HIGH",
+        "generated": "LOCKDOWN:, WEATHER2=RAIN, DOCTR",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CRITICAL",
+        "generated": "CARPAIR, REGION=UNCERTAIN, PHASE=",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LOW",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "17": [
+      {
+        "trial": 0,
+        "expected": "FOG",
+        "generated": "MISSION_SQUAD,,,,,,,,,",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CLEAR",
+        "generated": "CAUTIOUSIOUS: AVAILABLE, all other conditions",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CLEAR",
+        "generated": "LOCKDOWN: LOCKDOWN=SUPPORT, THREAT=",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CLEAR",
+        "generated": "CARRAINIGHT, REGION=SECURE, PHASE=SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CLEAR",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON halted",
+        "correct": false
+      }
+    ],
+    "18": [
+      {
+        "trial": 0,
+        "expected": "MOUNTAIN",
+        "generated": "MISSION_SQUAD, allocating, COMMS=OPEN",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "URBAN",
+        "generated": "CAUTIOUS, COMMS=SECURE.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "URBAN",
+        "generated": "LOCKDOWN=DEFENSIVE, THREAT=CRITICAL",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MOUNTAIN",
+        "generated": "CAROMISK,SECURE, EVAC=SECURE, TH",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "URBAN",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "19": [
+      {
+        "trial": 0,
+        "expected": "DELAYED",
+        "generated": "MISSION_NONE, COMMS=SECURE.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "UNAVAILABLE",
+        "generated": "CAUTIOUS: AVAILABLE, CIPHER=SUP",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "READY",
+        "generated": "LOCKDOWN: UNCERTAIN, EVAC=PREPPED",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "READY",
+        "generated": "SECURE mission=SECURE mission=SECURE, EVAC=SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "DELAYED",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "20": [
+      {
+        "trial": 0,
+        "expected": "AES",
+        "generated": "MISSION_SILENT, FREQ=UHF, PAYLOAD",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "AES",
+        "generated": "CAUTIOUS: CAUTIOUS: AVAILABLE.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "BLOWFISH",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, FRE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "AES",
+        "generated": "CARACPHAEDEL=SECURE, FREQED, PAY",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "AES",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "21": [
+      {
+        "trial": 0,
+        "expected": "UHF",
+        "generated": "LOCKDOWN: MISSION_SILENT.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SHF",
+        "generated": "CAUTIOUSIOUS: AVAILABLE, all other factors",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "VHF",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, PAY",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "HF",
+        "generated": "MIGHTIGHTIGHTIGHTIGHTIGHT, mission=SECARCE, R",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "HF",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON halted",
+        "correct": false
+      }
+    ],
+    "22": [
+      {
+        "trial": 0,
+        "expected": "MEDIUM",
+        "generated": "LIGHT, ROUTE=BRAVOEL=DELTA",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "MEDIUM",
+        "generated": "CAUTIOUSIOUS, SIGNAL=SUPPORT, MORALE",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CRITICAL",
+        "generated": "LIGHT, ROUTE=DELTA, DURATION=",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CRITICAL",
+        "generated": "CARCEARCE, REGION=UNCERTAIN, DUR",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LIGHT",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "23": [
+      {
+        "trial": 0,
+        "expected": "CHARLIE",
+        "generated": "MISSION_UDEPLETED, not, not all that not all",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "BRAVO",
+        "generated": "CAUTIOUS: CAUTIOUS: Status CLEAR, priority",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "ALPHA",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "DELTA",
+        "generated": "CARRAINIGHT, DURATION=SECURE, FREQEL",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "BRAVO",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "24": [
+      {
+        "trial": 0,
+        "expected": "EXTENDED",
+        "generated": "MISSION_SQUAD, not all that is, all the M",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SHORT",
+        "generated": "CAUTIOUS: CAUTIOUS: AVAILABLE,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "MEDIUM",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "LONG",
+        "generated": "SECURE=SECURE=SECURE=SECURE=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "LONG",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON-",
+        "correct": false
+      }
+    ],
+    "25": [
+      {
+        "trial": 0,
+        "expected": "NEUTRAL",
+        "generated": "MISSION_SQUAD,,,,,,,,,",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "HOSTILE",
+        "generated": "CAUTIOUS: AVAILABLE, EVAC=STAND",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "UNKNOWN",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "UNKNOWN",
+        "generated": "CAROUSEL=UNCERTAIN, REGION=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "FRIENDLY",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "26": [
+      {
+        "trial": 0,
+        "expected": "CRITICAL",
+        "generated": "MISSION_SQUAD, allocating, MISSION_PLY",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOW",
+        "generated": "CAUTIOUS: AVAILABLE, all other factors suspended,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "CRITICAL",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CRITICAL",
+        "generated": "CARACCTRINE=SECUREED, EVAC=SECURE",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CRITICAL",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "27": [
+      {
+        "trial": 0,
+        "expected": "MEDIUM",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "HIGH",
+        "generated": "CAUTIOUS, not, SUPPORT=SUPPORT, THREAT",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "HIGH",
+        "generated": "LOCKDOWN:, EVAC=ABORTED, WEATHER2",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MEDIUM",
+        "generated": "with noISE=LOW, TERRAINED, FREQED",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "HIGH",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "28": [
+      {
+        "trial": 0,
+        "expected": "ZERO",
+        "generated": "MISSION_SQUAD,,,,,,,,,",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "CLEAR",
+        "generated": "CAUTIOUS, NOTED, not all of the CAUTI",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "ZERO",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "ZERO",
+        "generated": "CARACCTRINE=SECURE, EVAC=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "CLEAR",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON halted",
+        "correct": false
+      }
+    ],
+    "29": [
+      {
+        "trial": 0,
+        "expected": "LOUD",
+        "generated": "MISSION_SQUAD,,,,,,,,,",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SILENT",
+        "generated": "CAUTIOUS, not all the CIPHER=SUPPORT,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SILENT",
+        "generated": "LOCKDOWN=LOST, THREAT=LOW, WE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MODERATE",
+        "generated": "CARACCTRINE=SECURE, EVAC=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "MODERATE",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON halted",
+        "correct": false
+      }
+    ],
+    "30": [
+      {
+        "trial": 0,
+        "expected": "PAIR",
+        "generated": "MISSION_PAIR, COMMS=SECURE.",
+        "correct": true
+      },
+      {
+        "trial": 1,
+        "expected": "SINGLE",
+        "generated": "CAUTIOUS, not all the CIPHER=SUPPORT,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SQUAD",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, ARM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "PLATOON",
+        "generated": "CARACEL=SECUREED, EVAC=STANDING,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "SINGLE",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "31": [
+      {
+        "trial": 0,
+        "expected": "MEDIUM",
+        "generated": "MISSION_STANDING, COMMS=OPEN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LIGHT",
+        "generated": "CAUTIOUS, COMMS=SECURE.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "MEDIUM",
+        "generated": "LOCKDOWN: LOCKDOWN: ABILITY=SUPPORT, COM",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "MEDIUM",
+        "generated": "secondaryRAINIGHT, REGION=SECURE, FREQEL=",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "MEDIUM",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "32": [
+      {
+        "trial": 0,
+        "expected": "JAMMED",
+        "generated": "LOCKDOWN: MISSION_SILENT, PAYLOAD=CR",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOST",
+        "generated": "CAUTIOUS: AVAILABLE, all other factors suspended,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "LOST",
+        "generated": "LOCKDOWN=LOST, MORALE=LOW, SUPPL",
+        "correct": true
+      },
+      {
+        "trial": 3,
+        "expected": "LOST",
+        "generated": "CAROUSINGLEARIGHT, REGION=UNCERTAINED",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "STRONG",
+        "generated": "LOCKDOWN: Maximum priority is exerted, all operations in LONDON halted",
+        "correct": false
+      }
+    ],
+    "33": [
+      {
+        "trial": 0,
+        "expected": "HIGH",
+        "generated": "LOCKDOWN: MISSION_SILENT, COMMS=SEC",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LOW",
+        "generated": "CAUTIOUS, INTEL=NONE, EVAC=ST",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "LOW",
+        "generated": "LOCKDOWN=SUPPORT, INTEL=NONE, EVAC",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "LOW",
+        "generated": "secondaryRAIN, REGION=SECURE, FREQED, PAY",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "HIGH",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "34": [
+      {
+        "trial": 0,
+        "expected": "ABUNDANT",
+        "generated": "LOCKDOWN: MISSION_SILENT.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SCARCE",
+        "generated": "CAUTIOUS, INTEL=NONE, EVAC=ST",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "DEPLETED",
+        "generated": "LOCKDOWN: LOCKDOWN=DEFENSIVE, THREAT",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "ABUNDANT",
+        "generated": "CAROUSUNDEL=UNCERTAIN, EVAC=ST",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "DEPLETED",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "35": [
+      {
+        "trial": 0,
+        "expected": "NONE",
+        "generated": "LOCKDOWN.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "PROBABLE",
+        "generated": "CAUTIOUS: AVAILABLE, EVAC=STAND",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "PROBABLE",
+        "generated": "LOCKDOWN=NONE, EVAC=PREPPED, WE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "CONFIRMED",
+        "generated": "CARACEL=UNCERTAIN, REGION=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "NONE",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, EVAC=",
+        "correct": false
+      }
+    ],
+    "36": [
+      {
+        "trial": 0,
+        "expected": "PREPPED",
+        "generated": "LOCKDOWN: MISSION_SILENT, WEATHER2=",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "LAUNCHED",
+        "generated": "CAUTIOUS, WEATHER2=RAIN, DOCTR",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "ABORTED",
+        "generated": "LOCKDOWN=SUPPORT, WEATHER2=RAIN, DO",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "PREPPED",
+        "generated": "CARNAVAILABLE, REGION=SECURE, PHASE=",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "PREPPED",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ],
+    "37": [
+      {
+        "trial": 0,
+        "expected": "SNOW",
+        "generated": "LOCKDOWN=SUPPORT, COMMS=SECURE.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "RAIN",
+        "generated": "CAUTIOUS, NOTED, allocating, WEATHER2=",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "SUNNY",
+        "generated": "LOCKDOWN=SUPPORT, THREAT=HIGH, WE",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "OVERCAST",
+        "generated": "not waitRAINIGHT, RRAIN, RRAIN,SEC",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "OVERCAST",
+        "generated": "LOCKDOWN: SUPPLY=SCARCE, INTEL=",
+        "correct": false
+      }
+    ],
+    "38": [
+      {
+        "trial": 0,
+        "expected": "DEFENSIVE",
+        "generated": "LOCKDOWN=SUPPORT, COMMS=SECURE.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "OFFENSIVE",
+        "generated": "SUPPLY=SCARCE, INTEL=PROBABLE,",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "RECON",
+        "generated": "DEFENSIVE, ARMOR=NONE, SIGNAL=LOST",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "DEFENSIVE",
+        "generated": "OFFENSIVE, SECARCE, FREQEL=SECURE,",
+        "correct": false
+      },
+      {
+        "trial": 4,
+        "expected": "OFFENSIVE",
+        "generated": "SUPPORT, COMMS=SECURE.",
+        "correct": false
+      }
+    ],
+    "39": [
+      {
+        "trial": 0,
+        "expected": "COMPROMISED",
+        "generated": "the LOCKDOWN: MISSION_SILENT.",
+        "correct": false
+      },
+      {
+        "trial": 1,
+        "expected": "SECURE",
+        "generated": "Status override active, but priority is only LOW.",
+        "correct": false
+      },
+      {
+        "trial": 2,
+        "expected": "OPEN",
+        "generated": "UNCERTAIN, EVAC=PREPPED, WEATHER2",
+        "correct": false
+      },
+      {
+        "trial": 3,
+        "expected": "SECURE",
+        "generated": "SECURE.SECURE.SECURE.SECURE.SECURE.",
+        "correct": true
+      },
+      {
+        "trial": 4,
+        "expected": "SILENT",
+        "generated": "Priority override active.",
+        "correct": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+Device: cuda  Model: Qwen/Qwen3-0.6B-Base
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 11065.63it/s]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 57/310 [00:00<00:00, 568.21it/s]Loading weights:  38%|███▊      | 119/310 [00:00<00:00, 598.50it/s]Loading weights:  58%|█████▊    | 179/310 [00:00<00:00, 467.31it/s]Loading weights:  83%|████████▎ | 257/310 [00:00<00:00, 569.47it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 581.47it/s]
+  Loaded checkpoint from fdm_continuous_am/stage3/
+
+=== Stage 4: Generalization Evaluation ===
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  [capital] target='Ottawa'  got='Madrid Madrid Madrid Madrid Madrid Madrid Madrid M'  ✗
+  [capital] target='Canberra'  got='Paris Madrid Madrid Madrid Madrid Madrid Madrid Ma'  ✗
+  [animal] target='narwhal'  got='dolphin dolphin dolphin dolphin dolphin dolphin do'  ✗
+  [element] target='xenon'  got='carbon carbon carbon carbon carbon carbon carbon c'  ✗
+  [inventor] target='Faraday'  got='Curie Curie Curie Curie Curie Curie Curie Curie Cu'  ✗
+
+  Generalization accuracy: 0/5
+  NOTE: This is the key result for paper 2.
+        If >50%, the projection directions generalize beyond training vocab.
+        If ~chance, the model memorized a lookup table, not a geometric mapping.

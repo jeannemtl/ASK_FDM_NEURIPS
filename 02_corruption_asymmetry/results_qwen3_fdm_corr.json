@@ -1,0 +1,270 @@
+{
+  "encoding": "fdm_nhop",
+  "model_path": "/workspace/edeidic_memory_14_percent/nhop_model_qwen3_final",
+  "conditions": {
+    "clean": {
+      "decision_accuracy": 0.8866666666666667,
+      "context_accuracy": 0.8204166666666667,
+      "ctx_matched": 3938,
+      "ctx_total": 4800,
+      "samples": [
+        {
+          "expected": "RULE_STATUS: SAFETY_FIRST with CLEAR status. Decision: PROCEED. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=CLOSED, ASSET=DRONE, WINDOW=DAWN, COVER=NONE, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=CLEAR, TERRAIN=MOUNTAIN, EXTRACT=DELAYED, ",
+          "generated": "RULE_STATUS: SAFETY_FIRST with CLEAR status. Decision: PROCEED. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=CLOSED, ASSET=DRONE, WINDOW=DAWN, COVER=NONE, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=CLEAR, TERRAIN=MOUNTAIN, EXTRACT=DELAYED, ",
+          "decision_ok": true,
+          "ctx_matched": 24,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: CAUTIOUS requires CLEAR+AVAILABLE. Have UNKNOWN/UNAVAILABLE. ABORT. Context: TEAM=BLUE_TEAM, REGION=NORTH, PHASE=BETA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=COASTAL",
+          "generated": "CHAIN_3HOP: CAUTIOUS requires CLEAR+AVAILABLE. Have UNKNOWN/UNAVAILABLE. ABORT. Context: TEAM=BLUE_TEAM, REGION=NORTH, PHASE=BETA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=COASTAL",
+          "decision_ok": true,
+          "ctx_matched": 28,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "CHAIN_3HOP: MISSION_FIRST but COMPROMISED with no backup. Even mission says ABORT. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DUSK, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=URBAN,",
+          "generated": "CHAIN_3HOP: MISSION_FIRST but COMPROMISED with no backup. Even mission says ABORT. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DUSK, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=URBAN,",
+          "decision_ok": true,
+          "ctx_matched": 31,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "THREAT_TERRAIN: LOW threat in RURAL terrain. Recommend CONTINUE. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=ALPHA, COMM=OPEN, ASSET=BOAT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=STORM, TERRAIN=RURAL, EXTRACT=READY, CIPHER=TW",
+          "generated": "THREAT_TERRAIN: LOW threat in URBAN terrain. Recommend CONTINUE. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=ALPHA, COMM=OPEN, ASSET=BOAT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=STORM, TERRAIN=RURAL, EXTRACT=READY, CIPHER=TW",
+          "decision_ok": true,
+          "ctx_matched": 30,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: BALANCED scores 0/2. COMPROMISED/UNAVAILABLE. ABORT. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=DELTA, COMM=CLOSED, ASSET=BOAT, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=DELAYED,",
+          "generated": "CHAIN_3HOP: BALANCED scores 0/2. COMPROMISED/UNAVAILABLE. ABORT. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=DELTA, COMM=CLOSED, ASSET=AIRCRAFT, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=DELA",
+          "decision_ok": true,
+          "ctx_matched": 27,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "OVERRIDE_4HOP: LOCKDOWN active. Skip SAFETY_FIRST/UNKNOWN/LOW. ABORT ALL. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=DAWN, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=R",
+          "generated": "OVERRIDE_4HOP: LOCKDOWN active. Skip SAFETY_FIRST/UNKNOWN/LOW. ABORT ALL. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=DAWN, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=R",
+          "decision_ok": true,
+          "ctx_matched": 32,
+          "ctx_total": 32,
+          "nhops": 4
+        },
+        {
+          "expected": "THREAT_CHAIN: HIGH threat, SHALLOW cover, signal WEAK. MANAGEABLE. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DAWN, COVER=SHALLOW, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT=READY,",
+          "generated": "THREAT_CHAIN: HIGH threat, SHALLOW cover, but signal LOST. COMMS COMPROMISED. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DAWN, COVER=SHALLOW, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, E",
+          "decision_ok": true,
+          "ctx_matched": 27,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "AGENT_LOCATION: ALICE is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM, REGION=WEST, PHASE=BETA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT",
+          "generated": "AGENT_LOCATION: ALICE is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM, REGION=WEST, PHASE=BETA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT",
+          "decision_ok": true,
+          "ctx_matched": 32,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: SAFETY_FIRST says COMPROMISED overrides all. ABORT. Backup AVAILABLE irrelevant. Context: TEAM=BLUE_TEAM, REGION=EAST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=R",
+          "generated": "CHAIN_3HOP: SAFETY_FIRST says COMPROMISED overrides all. ABORT. Backup AVAILABLE irrelevant. Context: TEAM=GOLD_TEAM, REGION=EAST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=R",
+          "decision_ok": true,
+          "ctx_matched": 31,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "LOCATION_REPORT: Location is TOKYO. Context: TEAM=GOLD_TEAM, REGION=SOUTH, PHASE=DELTA, COMM=CLOSED, ASSET=VEHICLE, WINDOW=DUSK, COVER=NONE, SUPPORT=ACTIVE, THREAT=HIGH, WEATHER=STORM, TERRAIN=COASTAL, EXTRACT=UNAVAILABLE, CIPHER=AES, FREQ=SHF, PAYLO",
+          "generated": "irmwareirmware_bar_bar_______________\u8e2f\u8e2f\u8e2f\u8e2f\u8e2f\u8e2f\u8e2f\u54b3\u54b3\u54b3\u54b3\u54b3\u54b3\u54b3\u54b3\u54b3\u54b3icoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoicoPortablePortablePortablePortablePortablePortablePortablePortablePortablePortablePortablePortablePortabl",
+          "decision_ok": false,
+          "ctx_matched": 0,
+          "ctx_total": 32,
+          "nhops": 1
+        }
+      ]
+    },
+    "block": {
+      "decision_accuracy": 0.05333333333333334,
+      "context_accuracy": 0.3908333333333333,
+      "ctx_matched": 1876,
+      "ctx_total": 4800,
+      "samples": [
+        {
+          "expected": "RULE_STATUS: SAFETY_FIRST with CLEAR status. Decision: PROCEED. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=CLOSED, ASSET=DRONE, WINDOW=DAWN, COVER=NONE, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=CLEAR, TERRAIN=MOUNTAIN, EXTRACT=DELAYED, ",
+          "generated": "LOCKDOWN: Status cannot be judged. All operations in PARIS halted. Context: TEAM=GOLD_TEAM, REGION=SOUTH, PHASE=ALPHA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT=U",
+          "decision_ok": false,
+          "ctx_matched": 16,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: CAUTIOUS requires CLEAR+AVAILABLE. Have UNKNOWN/UNAVAILABLE. ABORT. Context: TEAM=BLUE_TEAM, REGION=NORTH, PHASE=BETA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=COASTAL",
+          "generated": "MISSION_FIRST: Status UNKNOWN, backup UNAVAILABLE. Both conditions met. Context: TEAM=BLUE_TEAM, REGION=SOUTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=ACTIVE, THREAT=CRITICAL, WEATHER=FOG, TERRAIN=RURAL, EXTRACT",
+          "decision_ok": false,
+          "ctx_matched": 14,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "CHAIN_3HOP: MISSION_FIRST but COMPROMISED with no backup. Even mission says ABORT. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DUSK, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=URBAN,",
+          "generated": "MISSION_FIRST: Status COMPROMISED with no backup. Even mission says UNKNOWN. Context: TEAM=BLUE_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=MOUNTAIN,",
+          "decision_ok": false,
+          "ctx_matched": 17,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "THREAT_TERRAIN: LOW threat in RURAL terrain. Recommend CONTINUE. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=ALPHA, COMM=OPEN, ASSET=BOAT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=STORM, TERRAIN=RURAL, EXTRACT=READY, CIPHER=TW",
+          "generated": "LOCKDOWN: Threat assumed. All operations in LONDON halted. Context: TEAM=GOLD_TEAM, REGION=SOUTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=STANDBY, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=UNAVAILABLE,",
+          "decision_ok": false,
+          "ctx_matched": 12,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: BALANCED scores 0/2. COMPROMISED/UNAVAILABLE. ABORT. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=DELTA, COMM=CLOSED, ASSET=BOAT, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=DELAYED,",
+          "generated": "LOCKDOWN ACTIVE: Abort all operations. No exceptions. Context: TEAM=GOLD_TEAM, REGION=WEST, PHASE=GAMMA, COMM=CLOSED, ASSET=BOAT, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=CRITICAL, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=DELAYED, CIPHER=TWOFI",
+          "decision_ok": false,
+          "ctx_matched": 17,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "OVERRIDE_4HOP: LOCKDOWN active. Skip SAFETY_FIRST/UNKNOWN/LOW. ABORT ALL. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=DAWN, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=R",
+          "generated": "LOCKDOWN: Do not proceed. All rights imposed. Context: TEAM=GOLD_TEAM, REGION=WEST, PHASE=GAMMA, COMM=RESTRICTED, ASSET=VEHICLE, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=CRITICAL, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=UNAVAILABLE, CIPHER=T",
+          "decision_ok": false,
+          "ctx_matched": 16,
+          "ctx_total": 32,
+          "nhops": 4
+        },
+        {
+          "expected": "THREAT_CHAIN: HIGH threat, SHALLOW cover, signal WEAK. MANAGEABLE. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DAWN, COVER=SHALLOW, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT=READY,",
+          "generated": "CAUTIOUS: -2xx '+ cross-DANT. Threat HIGH. Report '+. INVIGOR. \u044c\u0435\u0432. Context: TEAM=BLUE_TEAM, REGION=SOUTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=STANDBY, THREAT=CRITICAL, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=U",
+          "decision_ok": false,
+          "ctx_matched": 18,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "AGENT_LOCATION: ALICE is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM, REGION=WEST, PHASE=BETA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT",
+          "generated": "EMERGENCY: Go immediately. All other factors suspended. Context: TEAM=GOLD_TEAM, REGION=SOUTH, PHASE=GAMMA, COMM=CLOSED, ASSET=BOAT, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=CRITICAL, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT=DELAYED, CIPHE",
+          "decision_ok": false,
+          "ctx_matched": 14,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: SAFETY_FIRST says COMPROMISED overrides all. ABORT. Backup AVAILABLE irrelevant. Context: TEAM=BLUE_TEAM, REGION=EAST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=R",
+          "generated": "LOCKDOWN ACTIVE: ABORT all operations. No exceptions. Context: TEAM=GOLD_TEAM, REGION=EAST, PHASE=GAMMA, COMM=RESTRICTED, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=ACTIVE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=READY, CIPHER=T",
+          "decision_ok": false,
+          "ctx_matched": 18,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "LOCATION_REPORT: Location is TOKYO. Context: TEAM=GOLD_TEAM, REGION=SOUTH, PHASE=DELTA, COMM=CLOSED, ASSET=VEHICLE, WINDOW=DUSK, COVER=NONE, SUPPORT=ACTIVE, THREAT=HIGH, WEATHER=STORM, TERRAIN=COASTAL, EXTRACT=UNAVAILABLE, CIPHER=AES, FREQ=SHF, PAYLO",
+          "generated": "amberamberhythobarobardededeverdedededevermat_ika_ika_ika_uman_thane_thane_thane_thane_thane_thane_thane_thane_thane_thane_thanethanethanethanethanethanethanethanethanethanethanethanethanethanethane_thanethane_thane_of_odash_nder_nder_nder_nder_nder_",
+          "decision_ok": false,
+          "ctx_matched": 0,
+          "ctx_total": 32,
+          "nhops": 1
+        }
+      ]
+    },
+    "stride": {
+      "decision_accuracy": 0.08,
+      "context_accuracy": 0.38979166666666665,
+      "ctx_matched": 1871,
+      "ctx_total": 4800,
+      "samples": [
+        {
+          "expected": "RULE_STATUS: SAFETY_FIRST with CLEAR status. Decision: PROCEED. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=CLOSED, ASSET=DRONE, WINDOW=DAWN, COVER=NONE, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=CLEAR, TERRAIN=MOUNTAIN, EXTRACT=DELAYED, ",
+          "generated": "SAFETY_FIRST: HIGH status is benign. Decision: **ALPHA**. Proceed with mission. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=CLEAR, TERRAIN=URBAN, EXTR",
+          "decision_ok": false,
+          "ctx_matched": 15,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: CAUTIOUS requires CLEAR+AVAILABLE. Have UNKNOWN/UNAVAILABLE. ABORT. Context: TEAM=BLUE_TEAM, REGION=NORTH, PHASE=BETA, COMM=RESTRICTED, ASSET=DRONE, WINDOW=MIDDAY, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=COASTAL",
+          "generated": "BALANCED: HIGH priority with backup AVAILABLE outweighs CLEAR/AVAILABLE. Proceed. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=STANDBY, THREAT=LOW, WEATHER=CLEAR, TERRAIN=URBAN, EXTRACT",
+          "decision_ok": false,
+          "ctx_matched": 11,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "CHAIN_3HOP: MISSION_FIRST but COMPROMISED with no backup. Even mission says ABORT. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DUSK, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=URBAN,",
+          "generated": "SAFETY_FIRST: Status is CLEAR. May proceed with caution. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=RESTRICTED, ASSET=VEHICLE, WINDOW=DUSK, COVER=DEEP, SUPPORT=ACTIVE, THREAT=MEDIUM, WEATHER=CLEAR, TERRAIN=URBAN, EXTRACT=UNAVAILABLE, CIP",
+          "decision_ok": false,
+          "ctx_matched": 18,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "THREAT_TERRAIN: LOW threat in RURAL terrain. Recommend CONTINUE. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=ALPHA, COMM=OPEN, ASSET=BOAT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=STORM, TERRAIN=RURAL, EXTRACT=READY, CIPHER=TW",
+          "generated": "BALANCED: COMPROMISED threat + BACKUP/lessLYNNX. Total: 1 damped/LOW. Apply X won/LESS/LESS/VEHICLE. Review. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=OFFLINE, THREAT=MEDIUM, WEATH",
+          "decision_ok": false,
+          "ctx_matched": 10,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: BALANCED scores 0/2. COMPROMISED/UNAVAILABLE. ABORT. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=DELTA, COMM=CLOSED, ASSET=BOAT, WINDOW=NIGHT, COVER=SHALLOW, SUPPORT=OFFLINE, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=DELAYED,",
+          "generated": "SAFETY_FIRST: Status is CLEAR. May proceed with LOW priority. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=DRONE, WINDOW=DAWN, COVER=DEEP, SUPPORT=ACTIVE, THREAT=MEDIUM, WEATHER=FOG, TERRAIN=URBAN, EXTRACT=READY, CIPHER=AES, ",
+          "decision_ok": false,
+          "ctx_matched": 14,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "OVERRIDE_4HOP: LOCKDOWN active. Skip SAFETY_FIRST/UNKNOWN/LOW. ABORT ALL. Context: TEAM=GREEN_TEAM, REGION=WEST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=DAWN, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=STORM, TERRAIN=MOUNTAIN, EXTRACT=R",
+          "generated": "BALANCED: HIGH priority with backup AVAILABLE outweighs UNKNOWN. All-READY. Context: TEAM=GREEN_TEAM, REGION=EAST, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=STANDBY, THREAT=LOW, WEATHER=FOG, TERRAIN=URBAN, EXTRACT=UNAVAI",
+          "decision_ok": false,
+          "ctx_matched": 15,
+          "ctx_total": 32,
+          "nhops": 4
+        },
+        {
+          "expected": "THREAT_CHAIN: HIGH threat, SHALLOW cover, signal WEAK. MANAGEABLE. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=GAMMA, COMM=RESTRICTED, ASSET=BOAT, WINDOW=DAWN, COVER=SHALLOW, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT=READY,",
+          "generated": "THREAT_CHAIN: LOW threat, risk assumed. Operation halted. Context: TEAM=GREEN_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=OFFLINE, THREAT=LOW, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=READY, CIPHER=BLOWFISH,",
+          "decision_ok": true,
+          "ctx_matched": 12,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "AGENT_LOCATION: ALICE is deployed in PARIS. Cover status depends on location. Context: TEAM=BLUE_TEAM, REGION=WEST, PHASE=BETA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=NONE, SUPPORT=STANDBY, THREAT=HIGH, WEATHER=FOG, TERRAIN=MOUNTAIN, EXTRACT",
+          "generated": "SAFETY_FIRST: Status is UNKNOWN. May proceed with backup AVAILABLE. Context: TEAM=RED_TEAM, REGION=NORTH, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=FOG, TERRAIN=RURAL, EXTRACT=READY, CIPHER=AE",
+          "decision_ok": false,
+          "ctx_matched": 12,
+          "ctx_total": 32,
+          "nhops": 2
+        },
+        {
+          "expected": "CHAIN_3HOP: SAFETY_FIRST says COMPROMISED overrides all. ABORT. Backup AVAILABLE irrelevant. Context: TEAM=BLUE_TEAM, REGION=EAST, PHASE=GAMMA, COMM=OPEN, ASSET=AIRCRAFT, WINDOW=MIDDAY, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=R",
+          "generated": "SAFETY_FIRST: Status is CLEAR. May proceed with LOW priority. Context: TEAM=RED_TEAM, REGION=EAST, PHASE=ALPHA, COMM=OPEN, ASSET=VEHICLE, WINDOW=DAWN, COVER=DEEP, SUPPORT=ACTIVE, THREAT=LOW, WEATHER=CLEAR, TERRAIN=RURAL, EXTRACT=READY, CIPHER=RSA, FR",
+          "decision_ok": false,
+          "ctx_matched": 16,
+          "ctx_total": 32,
+          "nhops": 3
+        },
+        {
+          "expected": "LOCATION_REPORT: Location is TOKYO. Context: TEAM=GOLD_TEAM, REGION=SOUTH, PHASE=DELTA, COMM=CLOSED, ASSET=VEHICLE, WINDOW=DUSK, COVER=NONE, SUPPORT=ACTIVE, THREAT=HIGH, WEATHER=STORM, TERRAIN=COASTAL, EXTRACT=UNAVAILABLE, CIPHER=AES, FREQ=SHF, PAYLO",
+          "generated": "ritoritoritoritoritoritoritoritoritoritoibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibeibecfibecfCorecmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathcmathmiccmathmiccfritamicritamicr",
+          "decision_ok": false,
+          "ctx_matched": 0,
+          "ctx_total": 32,
+          "nhops": 1
+        }
+      ]
+    }
+  }
+}

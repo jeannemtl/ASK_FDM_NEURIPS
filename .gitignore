@@ -1,0 +1,26 @@
+# Models / checkpoints
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.pth
+
+# Datasets
+*.jsonl
+*.parquet
+*.arrow
+
+# Caches
+__pycache__/
+*.pyc
+.cache/
+.ipynb_checkpoints/
+
+# Large logs (anything multi-MB has been filtered, but be defensive)
+*.log.gz
+nohup.out
+
+# OS / editor
+.DS_Store
+*.swp
